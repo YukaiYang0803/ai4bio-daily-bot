@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 300,
+  "prefiltered": 22,
+  "judged": 22,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2605.11764",
+      "title": "Decomposing the Generalization Gap in PROTAC Activity Prediction: Variance Attribution and the Inter-Laboratory Ceiling",
+      "score": 47.1
+    }
+  ]
+}
