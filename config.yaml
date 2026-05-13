@@ -36,7 +36,7 @@ prefilter:
 
 # === Selection ===
 selection:
-  max_papers: 5
+  max_papers: 5  # daily push 3-5, hard max 10
   min_topic_relevance: 4
   min_learning_value: 4
   min_evaluation_quality: 3

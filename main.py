@@ -25,7 +25,6 @@ from llm_judge import judge_papers
 from ranker import rank_and_select
 from state_store import (
     is_already_sent,
-    load_seen,
     mark_candidates,
     mark_sent,
     save_daily_log,
@@ -53,16 +52,61 @@ def prefilter(papers, keywords):
     return filtered
 
 
-def build_email(selected_with_summaries, date_str):
-    """Build HTML email in screenshot-like 2-question format."""
-    n = len(selected_with_summaries)
-    lines = []
+def _md_to_html(text):
+    """Convert simple Markdown to HTML for email."""
+    import re
 
-    # Header
-    lines.append(
-        f'<p><b>AI4Bio / BioFM 每日精选 · {date_str}</b><br>共 {n} 篇</p>'
-    )
-    lines.append("<hr>")
+    lines = text.strip().split("\n")
+    out = []
+    in_list = False
+
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            if in_list:
+                out.append("</ul>")
+                in_list = False
+            continue
+
+        # ### heading
+        if stripped.startswith("### "):
+            if in_list:
+                out.append("</ul>")
+                in_list = False
+            content = stripped[4:]
+            out.append(f"<h4>{content}</h4>")
+        # * bullet
+        elif stripped.startswith("* "):
+            if not in_list:
+                out.append("<ul>")
+                in_list = True
+            content = stripped[2:]
+            # Bold within bullets: **text**
+            content = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", content)
+            out.append(f"<li>{content}</li>")
+        # **label：** remainder (bold lead-in paragraph)
+        elif stripped.startswith("**") and "：**" in stripped:
+            content = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", stripped)
+            out.append(f"<p>{content}</p>")
+        # regular paragraph
+        else:
+            if in_list:
+                out.append("</ul>")
+                in_list = False
+            content = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", stripped)
+            out.append(f"<p>{content}</p>")
+
+    if in_list:
+        out.append("</ul>")
+    return "\n".join(out)
+
+
+def build_email(selected_with_summaries, date_str, config):
+    """Build HTML email with markdown-rendered summaries."""
+    n = len(selected_with_summaries)
+    tz = config["schedule"]["timezone"]
+    hour = config["schedule"]["send_hour_local"]
+    lines = []
 
     for i, item in enumerate(selected_with_summaries, 1):
         paper = item["paper"]
@@ -70,30 +114,35 @@ def build_email(selected_with_summaries, date_str):
 
         title = paper.get("title", "Unknown")
         link = paper.get("link", "")
-        published = paper.get("published", "")[:10]
+        published = paper.get("published_raw", paper.get("published", "")) or paper.get("published", "")
 
-        lines.append(f"<p><b>#{i}</b></p>")
-        lines.append(f"<p><b>标题:</b> {title}</p>")
-        # Render summary with line breaks
-        summary_html = summary.replace("\n", "<br>")
-        lines.append(f"<p>{summary_html}</p>")
-        lines.append(f"<p><b>发表时间:</b> {published}</p>")
-        lines.append(f'<p>🔗 <a href="{link}">ArXiv 链接</a></p>')
+        lines.append(
+            f'<h2 style="margin-bottom:4px">{date_str} AI4Bio / BioFM 每日精选 #{i}/{n}</h2>'
+        )
+        lines.append(f'<p><b>标题：</b> {title}</p>')
+        lines.append(f'<h3>摘要</h3>')
+        lines.append(_md_to_html(summary))
+        lines.append(f'<p><b>发表时间：</b> {published}</p>')
+        lines.append(f'<p>🔗 <b>ArXiv 链接：</b> <a href="{link}">{link}</a></p>')
+        if i < n:
+            lines.append("<hr>")
+
+    if n > 0:
         lines.append("<hr>")
-
-    # Footer
     lines.append(
         "<p><small>"
         "筛选重点：数据构建、模型架构、representation 设计、"
         "pretraining / post-training / SFT / RL 流程、训练经验、可靠的生物任务评估。"
-        "<br>由 DeepSeek 驱动 · 每日自动推送"
+        f"<br>由 DeepSeek 驱动 · 每日 {hour}:00 {tz} 自动推送"
         "</small></p>"
     )
 
     return "\n".join(lines)
 
 
-def build_no_paper_email(date_str):
+def build_no_paper_email(date_str, config):
+    tz = config["schedule"]["timezone"]
+    hour = config["schedule"]["send_hour_local"]
     lines = [
         f"<p><b>AI4Bio / BioFM 每日精选 · {date_str}</b></p>",
         "<p>今日无高相关 AI4Bio / BioFM 新论文更新。</p>",
@@ -104,7 +153,11 @@ def build_no_paper_email(date_str):
         "<li>Biological design and discovery</li>"
         "<li>Frontier ML for scientific foundation models</li>"
         "</ol>",
-        "<p><small>由 DeepSeek 驱动 · 每日自动推送</small></p>",
+        "<p><small>"
+        "筛选标准：优先关注数据构建、模型架构、representation 设计、"
+        "pretraining / post-training / SFT / RL 流程、训练经验、以及可靠的生物任务评估。"
+        f"<br>由 DeepSeek 驱动 · 每日 {hour}:00 {tz} 自动推送"
+        "</small></p>",
     ]
     return "\n".join(lines)
 
@@ -129,12 +182,11 @@ def main():
     fresh = [p for p in candidates if not is_already_sent(p["arxiv_id"])]
     print(f"  After dedup: {len(fresh)} papers")
 
-    # Mark all candidates for tracking
     mark_candidates([p["arxiv_id"] for p in fresh])
 
     if not fresh:
         print("[*] No new candidates. Sending empty email.")
-        body = build_no_paper_email(today)
+        body = build_no_paper_email(today, config)
         subject = f"今日无高相关 AI4Bio / BioFM 新论文，{today}"
         send_email(subject, body, config)
         save_daily_log(today, {"status": "no_candidates", "fetched": len(all_papers)})
@@ -151,7 +203,7 @@ def main():
 
     if not selected:
         print("[*] No papers passed quality threshold. Sending empty email.")
-        body = build_no_paper_email(today)
+        body = build_no_paper_email(today, config)
         subject = f"今日无高相关 AI4Bio / BioFM 新论文，{today}"
         send_email(subject, body, config)
         log_data = {
@@ -170,7 +222,7 @@ def main():
 
     # 7. Build and send email
     print("[7/7] Building and sending email...")
-    body = build_email(summaries, today)
+    body = build_email(summaries, today, config)
     n = len(summaries)
     subject = f"AI4Bio / BioFM 每日精选：{n} 篇，{today}"
     send_email(subject, body, config)

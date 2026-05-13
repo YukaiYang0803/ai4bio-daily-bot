@@ -25,13 +25,12 @@ def summarize_paper(paper, paper_data, config):
     )
     prompt_template = load_summary_prompt()
 
-    prompt = prompt_template.format(
-        title=paper["title"],
-        authors=", ".join(paper["authors"][:8]),
-        abstract=paper["abstract"][:2000],
-        link=paper["link"],
-        published=paper.get("published", ""),
-    )
+    prompt = prompt_template
+    prompt = prompt.replace("{title}", paper["title"])
+    prompt = prompt.replace("{authors}", ", ".join(paper["authors"][:8]))
+    prompt = prompt.replace("{abstract}", paper["abstract"][:2000])
+    prompt = prompt.replace("{link}", paper["link"])
+    prompt = prompt.replace("{published}", paper.get("published", ""))
 
     try:
         response = client.chat.completions.create(
