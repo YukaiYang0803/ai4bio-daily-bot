@@ -21,15 +21,14 @@ def judge_papers(papers, config):
 
     results = []
     for paper in papers:
-        prompt = prompt_template.format(
-            title=paper["title"],
-            authors=", ".join(paper["authors"][:10]),
-            abstract=paper["abstract"],
-            arxiv_id=paper["arxiv_id"],
-            categories=", ".join(paper.get("categories", [])),
-            published=paper.get("published", ""),
-            link=paper["link"],
-        )
+        prompt = prompt_template
+        prompt = prompt.replace("{title}", paper["title"])
+        prompt = prompt.replace("{authors}", ", ".join(paper["authors"][:10]))
+        prompt = prompt.replace("{abstract}", paper["abstract"])
+        prompt = prompt.replace("{arxiv_id}", paper["arxiv_id"])
+        prompt = prompt.replace("{categories}", ", ".join(paper.get("categories", [])))
+        prompt = prompt.replace("{published}", paper.get("published", ""))
+        prompt = prompt.replace("{link}", paper["link"])
 
         try:
             response = client.chat.completions.create(
