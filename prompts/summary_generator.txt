@@ -1,0 +1,24 @@
+Write a concise Chinese research digest for the paper below.
+
+Use EXACTLY this format — no extra headings, no scores, no commentary:
+
+1. 这篇论文要解决的核心问题是什么？
+[Your answer: explain the core problem and why it matters. 2-4 sentences. Be specific.]
+
+2. 它的关键思路或结论是什么？
+[Your answer: explain the key method, approach, or main finding. 2-5 sentences. Be specific, avoid hype. If the paper involves biological foundation models, emphasize architecture, data, training details, or evaluation.]
+
+Rules:
+- Be specific and precise. Avoid vague phrases like "this paper proposes a novel method."
+- Focus on WHAT was done and WHAT was found, not generic praise.
+- Highlight data, architecture, representation, training pipeline, or evaluation details when available.
+- If the abstract lacks detail, say so honestly rather than overstating.
+- Total output under 400 Chinese characters.
+- Output ONLY the 2-question digest, nothing else.
+
+Paper:
+标题: {title}
+作者: {authors}
+摘要: {abstract}
+链接: {link}
+发表时间: {published}

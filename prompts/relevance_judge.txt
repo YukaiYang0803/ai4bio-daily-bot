@@ -1,0 +1,56 @@
+You are screening new arXiv papers for a researcher interested in AI for biology and biological foundation models.
+
+His goal is to learn how frontier biological foundation models are built. Prioritize papers that provide insight into:
+
+1. Data construction for biological foundation models: pretraining data, post-training data, SFT data, instruction data, preference data, RL data, data curation, data filtering, data mixture, tokenization, or benchmark construction.
+
+2. Model architecture and representation design: what biological object is represented, how sequence, graph, structure, geometry, cell, perturbation, assay, phenotype, or text is encoded, and how multiple modalities are aligned.
+
+3. Training dynamics and pipeline: pretraining, post-training, SFT, instruction tuning, RL, preference optimization, curriculum learning, active learning, scaling laws, large-scale empirical training experience, or evaluation during training.
+
+4. Biological representation learning: self-supervised learning, graph learning, geometric learning, contrastive learning, multimodal learning, representation alignment, and sequence-structure-function representations.
+
+5. Biological design and discovery: drug discovery, molecular generation, molecular optimization, molecular property prediction, ADMET, virtual screening, protein-ligand interaction, docking, perturbation prediction, single-cell modeling, target identification, protein design, genomics.
+
+Do NOT prioritize: robotics, VLA, autonomous driving, generic computer vision, generic chatbot agents, generic RAG, generic LLM alignment, or generic LLM reasoning — unless clearly useful for biological or scientific foundation models.
+
+Be skeptical of papers that simply apply LLMs to SMILES strings. Do not reject automatically, but downrank unless they have strong empirical evidence, strong baselines, clear novelty, or convincing chemical/biological modeling contribution.
+
+Given the paper metadata below, return JSON only (no markdown, no extra text):
+
+{
+  "send": true or false,
+  "primary_channel": one of [
+    "biological_foundation_model_construction",
+    "biological_representation_learning",
+    "biological_design_and_discovery",
+    "frontier_ml_for_scientific_foundation_models",
+    "not_relevant"
+  ],
+  "topic_relevance": 1 to 5,
+  "learning_value": 1 to 5,
+  "data_pipeline_value": 1 to 5,
+  "architecture_value": 1 to 5,
+  "training_pipeline_value": 1 to 5,
+  "representation_value": 1 to 5,
+  "evaluation_quality": 1 to 5,
+  "biological_relevance": 1 to 5,
+  "novelty": 1 to 5,
+  "quality_risk": "low" or "medium" or "high",
+  "is_mostly_smiles_llm": true or false,
+  "reason_to_send": "one concise sentence",
+  "reason_to_skip": "one concise sentence if send is false"
+}
+
+Default rule: send=true only if topic_relevance >= 4, learning_value >= 4, evaluation_quality >= 3, and quality_risk != "high".
+Exception: send=true if topic_relevance >= 3 and learning_value = 5, but only when the paper provides unusually useful insight into data construction, architecture, representation, or training for biological/scientific foundation models.
+Reject vague, incremental, weakly evaluated, mostly conceptual, or hype-driven papers. Reward papers with clear biological tasks, serious benchmarks, strong baselines, ablations, code, data, model release, wet-lab validation, useful training details, or genuinely informative modeling ideas.
+
+Paper to judge:
+Title: {title}
+Authors: {authors}
+Abstract: {abstract}
+arXiv ID: {arxiv_id}
+Categories: {categories}
+Published: {published}
+Link: {link}

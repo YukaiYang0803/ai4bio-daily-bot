@@ -1,0 +1,72 @@
+# === Email ===
+email:
+  smtp_host: "smtp.gmail.com"
+  smtp_port: 587
+  # All sensitive values come from environment variables:
+  #   SMTP_USERNAME, SMTP_PASSWORD, EMAIL_FROM, EMAIL_TO
+  receivers:
+    - "yukaiyang0803@gmail.com"
+  # Add more receivers above as needed
+
+# === ArXiv ===
+arxiv:
+  max_results: 300
+  recent_days: 2
+  categories:
+    - cs.LG
+    - cs.AI
+    - cs.CL
+    - stat.ML
+    - q-bio.BM
+    - q-bio.QM
+    - q-bio.MN
+    - q-bio.GN
+
+# === Prefilter ===
+prefilter:
+  keywords:
+    - foundation model
+    - biology
+    - protein
+    - molecule
+    - drug discovery
+    - single cell
+    - genomics
+    - representation learning
+
+# === Selection ===
+selection:
+  max_papers: 5
+  min_topic_relevance: 4
+  min_learning_value: 4
+  min_evaluation_quality: 3
+
+# === Scoring weights (kept simple) ===
+scoring:
+  topic_relevance: 2.0
+  learning_value: 2.0
+  data_pipeline_value: 1.5
+  architecture_value: 1.5
+  training_pipeline_value: 1.5
+  representation_value: 1.3
+  evaluation_quality: 1.2
+  biological_relevance: 1.0
+  novelty: 1.0
+
+# === LLM ===
+llm:
+  provider: "deepseek"
+  model: "deepseek-chat"
+  api_base: "https://api.deepseek.com"
+  # DEEPSEEK_API_KEY from env
+  temperature_judge: 0.0
+  temperature_summary: 0.3
+  max_tokens_judge: 800
+  max_tokens_summary: 600
+
+# === Schedule ===
+schedule:
+  timezone: "Asia/Shanghai"
+  # 8pm Beijing time = 12:00 UTC (cron: 0 12 * * *)
+  send_hour_local: 20
+  send_minute_local: 0
