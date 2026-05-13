@@ -1,3 +1,4 @@
+import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 
@@ -11,13 +12,13 @@ def fetch_papers(config):
 
     query = "+OR+".join(f"cat:{c}" for c in categories)
     url = (
-        "http://export.arxiv.org/api/query"
+        "https://export.arxiv.org/api/query"
         f"?search_query={query}"
         f"&start=0&max_results={max_results}"
         "&sortBy=submittedDate&sortOrder=descending"
     )
 
-    resp = requests.get(url, timeout=30)
+    resp = _get_with_retry(url)
     resp.raise_for_status()
 
     ns = {"a": "http://www.w3.org/2005/Atom"}
@@ -28,8 +29,8 @@ def fetch_papers(config):
 
     for entry in root.findall("a:entry", ns):
         arxiv_id = _extract_id(entry, ns)
-        published = _extract_date(entry, "a:published", ns)
-        if published and published < cutoff:
+        published_dt = _extract_date(entry, "a:published", ns)
+        if published_dt and published_dt < cutoff:
             continue
 
         papers.append(
@@ -38,13 +39,28 @@ def fetch_papers(config):
                 "title": _text(entry, "a:title", ns).strip().replace("\n", " "),
                 "abstract": _text(entry, "a:summary", ns).strip().replace("\n", " "),
                 "authors": _extract_authors(entry, ns),
-                "published": published.isoformat() if published else "",
+                "published": published_dt.isoformat() if published_dt else "",
+                "published_raw": _text(entry, "a:published", ns),
                 "categories": _extract_categories(entry, ns),
                 "link": arxiv_id,
             }
         )
 
     return papers
+
+
+def _get_with_retry(url, max_retries=3, timeout=90):
+    last_error = None
+    for attempt in range(max_retries):
+        try:
+            return requests.get(url, timeout=timeout)
+        except requests.exceptions.Timeout as e:
+            last_error = e
+            if attempt < max_retries - 1:
+                wait = 2 ** attempt * 5
+                print(f"  ArXiv timeout, retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")
+                time.sleep(wait)
+    raise last_error
 
 
 def _text(el, tag, ns):
@@ -54,9 +70,7 @@ def _text(el, tag, ns):
 
 def _extract_id(entry, ns):
     id_text = _text(entry, "a:id", ns)
-    # "http://arxiv.org/abs/XXXX.XXXXXvN" -> "XXXX.XXXXX"
     arxiv_id = id_text.split("/abs/")[-1]
-    # Remove version suffix if present
     if "v" in arxiv_id:
         arxiv_id = arxiv_id.rsplit("v", 1)[0]
     return arxiv_id
