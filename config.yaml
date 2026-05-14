@@ -58,6 +58,7 @@ llm:
   provider: "deepseek"
   model: "deepseek-chat"
   api_base: "https://api.deepseek.com"
+  api_key_env: "DEEPSEEK_API_KEY"
   # DEEPSEEK_API_KEY from env
   temperature_judge: 0.0
   temperature_summary: 0.3
