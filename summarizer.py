@@ -20,7 +20,7 @@ def summarize_paper(paper, paper_data, config):
     """
     llm_cfg = config["llm"]
     client = OpenAI(
-        api_key=os.environ["DEEPSEEK_API_KEY"],
+        api_key=os.environ[llm_cfg["api_key_env"]],
         base_url=llm_cfg["api_base"],
     )
     prompt_template = load_summary_prompt()
