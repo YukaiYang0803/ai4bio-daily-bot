@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 300,
+  "prefiltered": 26,
+  "judged": 26,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2605.13789",
+      "title": "ENSEMBITS: an alphabet of protein conformational ensembles",
+      "score": 60.8
+    },
+    {
+      "arxiv_id": "2605.13248",
+      "title": "Compact Latent Manifold Translation: A Parameter-Efficient Foundation Model for Cross-Modal and Cross-Frequency Physiological Signal Synthesis",
+      "score": 53.3
+    },
+    {
+      "arxiv_id": "2605.13262",
+      "title": "Chem-GMNet: A Sphere-Native Geometric Transformer for Molecular Property Prediction",
+      "score": 48.3
+    }
+  ]
+}
