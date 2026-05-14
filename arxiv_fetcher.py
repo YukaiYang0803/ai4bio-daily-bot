@@ -49,18 +49,24 @@ def fetch_papers(config):
     return papers
 
 
-def _get_with_retry(url, max_retries=3, timeout=90):
-    last_error = None
-    for attempt in range(max_retries):
-        try:
-            return requests.get(url, timeout=timeout)
-        except requests.exceptions.Timeout as e:
-            last_error = e
-            if attempt < max_retries - 1:
-                wait = 2 ** attempt * 5
-                print(f"  ArXiv timeout, retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")
-                time.sleep(wait)
-    raise last_error
+def _get_with_retry(url, max_retries=3, timeout=90):                                                                                        
+      last_error = None                                                                                                                       
+      for attempt in range(max_retries):
+          try:
+              resp = requests.get(url, timeout=timeout)                                                                                       
+              if resp.status_code == 429 and attempt < max_retries - 1:                                                                       
+                  wait = 2 ** attempt * 10                                                                                                    
+                  print(f"  ArXiv rate-limited (429), retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")                          
+                  time.sleep(wait)                                                                                                            
+                  continue        
+              return resp
+          except requests.exceptions.Timeout as e:                                                                                            
+              last_error = e
+              if attempt < max_retries - 1:                                                                                                   
+                  wait = 2 ** attempt * 5
+                  print(f"  ArXiv timeout, retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")
+                  time.sleep(wait)
+      raise last_error
 
 
 def _text(el, tag, ns):
