@@ -1,3 +1,4 @@
+import os
 import time
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -49,22 +50,27 @@ def fetch_papers(config):
     return papers
 
 
-def _get_with_retry(url, max_retries=3, timeout=90):                                                                                        
-      last_error = None                                                                                                                       
+def _get_with_retry(url, max_retries=5, timeout=90):
+      contact = os.environ.get("EMAIL_FROM", "")
+      headers = {"User-Agent": f"AI4Bio-Daily-Bot/1.0 (mailto:{contact})"} if contact else {}
+      last_error = None
       for attempt in range(max_retries):
           try:
-              resp = requests.get(url, timeout=timeout)                                                                                       
-              if resp.status_code == 429 and attempt < max_retries - 1:                                                                       
-                  wait = 2 ** attempt * 10                                                                                                    
-                  print(f"  ArXiv rate-limited (429), retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")                          
-                  time.sleep(wait)                                                                                                            
-                  continue        
+              resp = requests.get(url, timeout=timeout, headers=headers)
+              if resp.status_code == 429:
+                  if attempt < max_retries - 1:
+                      wait = 2 ** attempt * 30
+                      print(f"  ArXiv rate-limited (429), retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")
+                      time.sleep(wait)
+                      continue
+                  else:
+                      resp.raise_for_status()
               return resp
-          except requests.exceptions.Timeout as e:                                                                                            
+          except requests.exceptions.Timeout as e:
               last_error = e
               if attempt < max_retries - 1:                                                                                                   
                   wait = 2 ** attempt * 5
-                  print(f"  ArXiv timeout, retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")
+                  print(f"  ArXiv timeout, retrying in {wait}s (attempt {attempt + 1}/{max_retries})...")                                     
                   time.sleep(wait)
       raise last_error
 
