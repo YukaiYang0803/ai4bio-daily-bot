@@ -10,8 +10,22 @@ email:
 
 # === ArXiv ===
 arxiv:
+  source: "oai_pmh"
+
+  # OAI-PMH is better suited than search API for daily metadata harvesting.
+  # arXiv metadata is updated nightly after new submissions are announced.
+  recent_days: 3
+
+  # Kept for backward compatibility with older search API code paths.
   max_results: 300
-  recent_days: 2
+
+  # OAI-PMH / arXiv API politeness controls.
+  request_timeout_seconds: 60
+  request_interval_seconds: 3.2
+  max_attempts_per_request: 5
+  retry_base_seconds: 20
+  retry_max_seconds: 300
+
   categories:
     - cs.LG
     - cs.AI
@@ -68,6 +82,10 @@ llm:
 # === Schedule ===
 schedule:
   timezone: "Asia/Shanghai"
-  # 8pm Beijing time = 12:00 UTC (cron: 0 12 * * *)
-  send_hour_local: 20
+
+  # GitHub Actions cron is configured in UTC in .github/workflows/daily.yml.
+  # Current workflow starts at 12:47 Asia/Shanghai.
+  # Email is sent at 13:00 Asia/Shanghai if the pipeline finishes early.
+  send_hour_local: 13
   send_minute_local: 0
+  wait_until_send_time: true

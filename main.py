@@ -15,7 +15,9 @@ Pipeline:
 import os
 import sys
 import traceback
+import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -37,6 +39,37 @@ def load_config():
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
+def wait_until_configured_send_time(config):
+    schedule_cfg = config.get("schedule", {})
+    if not schedule_cfg.get("wait_until_send_time", False):
+        return
+
+    tz_name = schedule_cfg.get("timezone", "UTC")
+    send_hour = int(schedule_cfg.get("send_hour_local", 13))
+    send_minute = int(schedule_cfg.get("send_minute_local", 0))
+
+    tz = ZoneInfo(tz_name)
+    now = datetime.now(tz)
+    target = now.replace(
+        hour=send_hour,
+        minute=send_minute,
+        second=0,
+        microsecond=0,
+    )
+
+    if now >= target:
+        print(
+            f"[*] Configured send time {target.isoformat()} has already passed; "
+            "sending immediately."
+        )
+        return
+
+    wait_seconds = (target - now).total_seconds()
+    print(
+        f"[*] Waiting until configured send time: {target.isoformat()} "
+        f"({wait_seconds:.0f}s)"
+    )
+    time.sleep(wait_seconds)
 
 def prefilter(papers, keywords):
     """Case-insensitive keyword match on title + abstract."""
@@ -106,6 +139,7 @@ def build_email(selected_with_summaries, date_str, config):
     n = len(selected_with_summaries)
     tz = config["schedule"]["timezone"]
     hour = config["schedule"]["send_hour_local"]
+    minute = config["schedule"].get("send_minute_local", 0)
     lines = []
 
     for i, item in enumerate(selected_with_summaries, 1):
@@ -133,7 +167,7 @@ def build_email(selected_with_summaries, date_str, config):
         "<p><small>"
         "筛选重点：数据构建、模型架构、representation 设计、"
         "pretraining / post-training / SFT / RL 流程、训练经验、可靠的生物任务评估。"
-        f"<br>由 DeepSeek 驱动 · 每日 {hour}:00 {tz} 自动推送"
+        f"<br>由 DeepSeek 驱动 · 每日 {hour:02d}:{minute:02d} {tz} 自动推送"
         "</small></p>"
     )
 
@@ -143,6 +177,7 @@ def build_email(selected_with_summaries, date_str, config):
 def build_no_paper_email(date_str, config):
     tz = config["schedule"]["timezone"]
     hour = config["schedule"]["send_hour_local"]
+    minute = config["schedule"].get("send_minute_local", 0)
     lines = [
         f"<p><b>AI4Bio / BioFM 每日精选 · {date_str}</b></p>",
         "<p>今日无高相关 AI4Bio / BioFM 新论文更新。</p>",
@@ -156,7 +191,7 @@ def build_no_paper_email(date_str, config):
         "<p><small>"
         "筛选标准：优先关注数据构建、模型架构、representation 设计、"
         "pretraining / post-training / SFT / RL 流程、训练经验、以及可靠的生物任务评估。"
-        f"<br>由 DeepSeek 驱动 · 每日 {hour}:00 {tz} 自动推送"
+        f"<br>由 DeepSeek 驱动 · 每日 {hour:02d}:{minute:02d} {tz} 自动推送"
         "</small></p>",
     ]
     return "\n".join(lines)
@@ -188,6 +223,7 @@ def main():
         print("[*] No new candidates. Sending empty email.")
         body = build_no_paper_email(today, config)
         subject = f"今日无高相关 AI4Bio / BioFM 新论文，{today}"
+        wait_until_configured_send_time(config)
         send_email(subject, body, config)
         save_daily_log(today, {"status": "no_candidates", "fetched": len(all_papers)})
         return
@@ -205,6 +241,7 @@ def main():
         print("[*] No papers passed quality threshold. Sending empty email.")
         body = build_no_paper_email(today, config)
         subject = f"今日无高相关 AI4Bio / BioFM 新论文，{today}"
+        wait_until_configured_send_time(config)
         send_email(subject, body, config)
         log_data = {
             "status": "none_passed",
@@ -225,6 +262,7 @@ def main():
     body = build_email(summaries, today, config)
     n = len(summaries)
     subject = f"AI4Bio / BioFM 每日精选：{n} 篇，{today}"
+    wait_until_configured_send_time(config)
     send_email(subject, body, config)
 
     # 8. Save state

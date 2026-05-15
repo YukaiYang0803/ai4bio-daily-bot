@@ -2,9 +2,10 @@ name: AI4Bio Daily Paper Digest
 
 on:
   schedule:
-    # 8pm Beijing time = 12:00 UTC (China has no DST)
-    - cron: '0 12 * * *'
-  workflow_dispatch:  # Allow manual trigger for testing
+    # Every day at 12:47 Beijing time = 04:47 UTC
+    # This is after arXiv's normal nightly metadata release window in both US DST and non-DST periods.
+    - cron: '47 4 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -12,7 +13,7 @@ permissions:
 jobs:
   run-bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repo
