@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 300,
+  "prefiltered": 19,
+  "judged": 19,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2605.14812",
+      "title": "MetaGEM: Bottom-Up Reconstruction of Genome-Scale Metabolic Networks via Deep Enzyme-Metabolite Anchoring",
+      "score": 50.0
+    }
+  ]
+}
