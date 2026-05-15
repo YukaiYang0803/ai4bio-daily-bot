@@ -1,14 +1,34 @@
 {
   "status": "ok",
-  "fetched": 300,
-  "prefiltered": 19,
-  "judged": 19,
-  "selected": 1,
+  "fetched": 1384,
+  "prefiltered": 109,
+  "judged": 105,
+  "selected": 5,
   "papers": [
     {
-      "arxiv_id": "2605.14812",
-      "title": "MetaGEM: Bottom-Up Reconstruction of Genome-Scale Metabolic Networks via Deep Enzyme-Metabolite Anchoring",
-      "score": 50.0
+      "arxiv_id": "2605.00182",
+      "title": "Towards A Generative Protein Evolution Machine with DPLM-Evo",
+      "score": 59.3
+    },
+    {
+      "arxiv_id": "2602.22251",
+      "title": "Zatom-1: Towards a Multimodal Foundation Model for 3D Molecules and Materials",
+      "score": 58.3
+    },
+    {
+      "arxiv_id": "2506.03800",
+      "title": "STELLA: A Multimodal LLM for Protein Functional Annotation via Unified Sequence-Structure Encoding",
+      "score": 54.8
+    },
+    {
+      "arxiv_id": "2605.14215",
+      "title": "GenCircuit-RL: Reinforcement Learning from Hierarchical Verification for Genetic Circuit Design",
+      "score": 50.2
+    },
+    {
+      "arxiv_id": "2604.13986",
+      "title": "PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling",
+      "score": 50.2
     }
   ]
 }
