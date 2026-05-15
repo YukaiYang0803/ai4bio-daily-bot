@@ -36,7 +36,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
           EMAIL_TO: ${{ secrets.EMAIL_TO }}
-        run: python main.py
+        run: python -u main.py
 
       - name: Commit state and logs
         if: always()

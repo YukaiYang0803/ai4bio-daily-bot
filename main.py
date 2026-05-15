@@ -44,8 +44,16 @@ def wait_until_configured_send_time(config):
     if not schedule_cfg.get("wait_until_send_time", False):
         return
 
+    github_event_name = os.environ.get("GITHUB_EVENT_NAME", "")
+    if github_event_name != "schedule":
+        print(
+            f"[*] GITHUB_EVENT_NAME={github_event_name or 'local'}; "
+            "only scheduled runs wait for configured send time."
+        )
+        return
+
     tz_name = schedule_cfg.get("timezone", "UTC")
-    send_hour = int(schedule_cfg.get("send_hour_local", 13))
+    send_hour = int(schedule_cfg.get("send_hour_local", 0))
     send_minute = int(schedule_cfg.get("send_minute_local", 0))
 
     tz = ZoneInfo(tz_name)
