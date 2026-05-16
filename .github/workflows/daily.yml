@@ -2,9 +2,10 @@ name: AI4Bio Daily Paper Digest
 
 on:
   schedule:
-    # Every day at 12:47 Beijing time = 04:47 UTC
-    # This is after arXiv's normal nightly metadata release window in both US DST and non-DST periods.
-    - cron: '47 4 * * *'
+    # Every day at 06:17 Asia/Shanghai = 22:17 UTC previous day.
+    # Start early to absorb GitHub Actions schedule delays.
+    # Email send time is controlled by config.yaml.
+    - cron: '17 22 * * *'
   workflow_dispatch:
 
 permissions:

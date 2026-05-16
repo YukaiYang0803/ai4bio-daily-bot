@@ -82,10 +82,9 @@ llm:
 # === Schedule ===
 schedule:
   timezone: "Asia/Shanghai"
-
-  # GitHub Actions cron is configured in UTC in .github/workflows/daily.yml.
-  # Current workflow starts at 12:47 Asia/Shanghai.
-  # Email is sent at 13:00 Asia/Shanghai if the pipeline finishes early.
-  send_hour_local: 13
+  # Workflow starts at 06:17 Asia/Shanghai.
+  # Scheduled runs wait and send at 10:00 Asia/Shanghai.
+  # Manual runs send immediately.
+  send_hour_local: 10
   send_minute_local: 0
   wait_until_send_time: true
