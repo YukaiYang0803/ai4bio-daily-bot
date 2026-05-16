@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 607,
+  "prefiltered": 48,
+  "judged": 45,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2604.21809",
+      "title": "Quotient-Space Diffusion Models",
+      "score": 48.3
+    },
+    {
+      "arxiv_id": "2602.05285",
+      "title": "Robust Inference-Time Steering of Protein Diffusion Models via Embedding Optimization",
+      "score": 44.0
+    },
+    {
+      "arxiv_id": "2605.12784",
+      "title": "ToolMol: Evolutionary Agentic Framework for Multi-objective Drug Discovery",
+      "score": 39.9
+    }
+  ]
+}
