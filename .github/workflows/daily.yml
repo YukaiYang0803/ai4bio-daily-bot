@@ -5,7 +5,7 @@ on:
     # Every day at 06:17 Asia/Shanghai = 22:17 UTC previous day.
     # Start early to absorb GitHub Actions schedule delays.
     # Email send time is controlled by config.yaml.
-    - cron: '17 22 * * *'
+    - cron: '27 15 * * *'
   workflow_dispatch:
 
 permissions:
