@@ -2,10 +2,10 @@ name: AI4Bio Daily Paper Digest
 
 on:
   schedule:
-    # Every day at 06:17 Asia/Shanghai = 22:17 UTC previous day.
+    # Every day at 06:27 Asia/Shanghai = 22:27 UTC previous day.
     # Start early to absorb GitHub Actions schedule delays.
     # Email send time is controlled by config.yaml.
-    - cron: '27 15 * * *'
+    - cron: '27 22 * * *'
   workflow_dispatch:
 
 permissions:
