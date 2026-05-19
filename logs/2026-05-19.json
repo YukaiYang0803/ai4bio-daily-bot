@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 972,
+  "prefiltered": 64,
+  "judged": 64,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2605.18552",
+      "title": "Protein Fold Classification at Scale: Benchmarking and Pretraining",
+      "score": 61.0
+    },
+    {
+      "arxiv_id": "2605.17276",
+      "title": "How Do Electrocardiogram Models Scale?",
+      "score": 52.9
+    },
+    {
+      "arxiv_id": "2412.18084",
+      "title": "Property Enhanced Instruction Tuning for Multi-task Molecule Generation with Large Language Models",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2605.18055",
+      "title": "FLAG: Foundation model representation with Latent diffusion Alignment via Graph for spatial gene expression prediction",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2605.17899",
+      "title": "DCFold: Efficient Protein Structure Generation with Single Forward Pass",
+      "score": 50.2
+    }
+  ]
+}
