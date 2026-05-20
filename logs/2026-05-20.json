@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1299,
+  "prefiltered": 95,
+  "judged": 91,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2602.04883",
+      "title": "Protein Autoregressive Modeling via Multiscale Structure Generation",
+      "score": 54.0
+    },
+    {
+      "arxiv_id": "2605.19902",
+      "title": "Hierarchical Contrastive Learning for Multi-Domain Protein-Ligand Binding",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2605.18381",
+      "title": "Generating Physically Consistent Molecules with Energy-Based Models",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2605.19752",
+      "title": "MSAlign: Aligning Molecule and Mass Spectra Foundation Models for Metabolite Identification",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2605.19343",
+      "title": "What Makes a Representation Good for Single-Cell Perturbation Prediction?",
+      "score": 49.8
+    }
+  ]
+}
