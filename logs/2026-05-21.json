@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1231,
+  "prefiltered": 74,
+  "judged": 71,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.11661",
+      "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
+      "score": 59.5
+    },
+    {
+      "arxiv_id": "2602.04916",
+      "title": "AFD-INSTRUCTION: A Comprehensive Antibody Instruction Dataset with Functional Annotations for LLM-Based Understanding and Design",
+      "score": 58.0
+    },
+    {
+      "arxiv_id": "2605.21485",
+      "title": "EvoStruct: Bridging Evolutionary and Structural Priors for Antibody CDR Design via Protein Language Model Adaptation",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2605.08659",
+      "title": "Pushing Biomolecular Utility-Diversity Frontiers with Supergroup Relative Policy Optimization",
+      "score": 47.4
+    },
+    {
+      "arxiv_id": "2603.06740",
+      "title": "ViroGym: Realistic Large-Scale Benchmarks for Evaluating Viral Proteins",
+      "score": 46.9
+    }
+  ]
+}
