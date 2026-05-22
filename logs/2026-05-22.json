@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 1225,
+  "prefiltered": 70,
+  "judged": 67,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2603.21743",
+      "title": "CellFluxRL: Biologically-Constrained Virtual Cell Modeling via Reinforcement Learning",
+      "score": 54.2
+    },
+    {
+      "arxiv_id": "2605.22133",
+      "title": "Atom-level Protein Representation Learning Improves Protein Structure Prediction",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2605.22287",
+      "title": "SciCore-Mol: Augmenting Large Language Models with Pluggable Molecular Cognition Modules",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2605.21740",
+      "title": "SMDD-Bench: Can LLMs Solve Real-World Small Molecule Drug Design Tasks?",
+      "score": 42.9
+    }
+  ]
+}
