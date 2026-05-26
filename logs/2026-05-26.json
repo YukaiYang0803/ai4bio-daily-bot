@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 838,
+  "prefiltered": 61,
+  "judged": 60,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2605.25446",
+      "title": "A Signal-Language Foundation Model for Broad-Spectrum Cardiovascular Assessment from Routine Electrocardiography",
+      "score": 61.0
+    },
+    {
+      "arxiv_id": "2602.17162",
+      "title": "JEPA-DNA: Grounding Genomic Foundation Models through Joint-Embedding Predictive Architectures",
+      "score": 60.8
+    },
+    {
+      "arxiv_id": "2605.25388",
+      "title": "ViroBench: Benchmarking Nucleotide Foundation Models on Viral Genomics Tasks",
+      "score": 56.4
+    },
+    {
+      "arxiv_id": "2605.25242",
+      "title": "C3P: Contrastive promoter-protein pretraining yields representations capturing bacterial gene regulation",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2601.22466",
+      "title": "EvoEGF-Mol: Evolving Exponential Geodesic Flow for Structure-based Drug Design",
+      "score": 52.3
+    }
+  ]
+}
