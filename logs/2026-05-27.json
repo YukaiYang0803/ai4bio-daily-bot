@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1284,
+  "prefiltered": 80,
+  "judged": 74,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2605.25710",
+      "title": "Machine Learning Multiscale Interactions",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2512.08508",
+      "title": "Multi-Alignment Contrastive Learning for Enzyme--Reaction Retrieval",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2605.25764",
+      "title": "Benchmarking Pathology Foundation Models for Spatial Domain Understanding",
+      "score": 48.8
+    },
+    {
+      "arxiv_id": "2605.26543",
+      "title": "PolyFusionAgent: A Multimodal Foundation Model and Autonomous AI Assistant for Polymer Property Prediction and Inverse Design",
+      "score": 48.6
+    },
+    {
+      "arxiv_id": "2503.21450",
+      "title": "CMADiff: Cross-Modal Aligned Diffusion for Controllable Protein Generation",
+      "score": 48.5
+    }
+  ]
+}
