@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1569,
+  "prefiltered": 90,
+  "judged": 86,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2605.28111",
+      "title": "Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction",
+      "score": 60.8
+    },
+    {
+      "arxiv_id": "2605.01489",
+      "title": "SciResearcher: Scaling Deep Research Agents for Frontier Scientific Reasoning",
+      "score": 52.4
+    },
+    {
+      "arxiv_id": "2507.09466",
+      "title": "La-Proteina: Atomistic Protein Generation via Partially Latent Flow Matching",
+      "score": 52.3
+    },
+    {
+      "arxiv_id": "2605.28075",
+      "title": "Measure-to-measure Regression with Transformers",
+      "score": 48.8
+    },
+    {
+      "arxiv_id": "2605.27853",
+      "title": "MolLingo: Molecule-Native Representations for LLM-Powered Scientific Agents",
+      "score": 48.5
+    }
+  ]
+}
