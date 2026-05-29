@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1711,
+  "prefiltered": 115,
+  "judged": 111,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2512.00283",
+      "title": "BioArc: Discovering Optimal Neural Architectures for Biological Foundation Models",
+      "score": 59.5
+    },
+    {
+      "arxiv_id": "2512.15133",
+      "title": "HD-Prot: A Protein Language Model for Joint Sequence-Structure Modeling with Continuous Structure Tokens",
+      "score": 59.3
+    },
+    {
+      "arxiv_id": "2602.20176",
+      "title": "Cross-Chirality Generalization by Axial Vectors for Hetero-Chiral Protein-Peptide Interaction Design",
+      "score": 53.5
+    },
+    {
+      "arxiv_id": "2605.29980",
+      "title": "Genetically Aligned Patient Representations Improve Hematological Diagnosis",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2510.10020",
+      "title": "Calibrating Generative Models to Distributional Constraints",
+      "score": 49.9
+    }
+  ]
+}
