@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 811,
+  "prefiltered": 62,
+  "judged": 59,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2605.29926",
+      "title": "A Triple-Modal Contrastive Learning Framework with Sequence, Graph, and 3D Features for Drug-Target Interaction Prediction",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2605.29698",
+      "title": "A Systematic Evaluation of Molecular Mixture Behavior Prediction",
+      "score": 47.4
+    }
+  ]
+}
