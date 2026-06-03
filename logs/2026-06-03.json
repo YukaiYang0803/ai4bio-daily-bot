@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 718,
+  "prefiltered": 48,
+  "judged": 48,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2411.15076",
+      "title": "RankByGene: Gene-Guided Histopathology Representation Learning Through Cross-Modal Ranking Consistency",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2606.02386",
+      "title": "AgentPLM: Agentic Protein Language Models with Reasoning-Augmented Decoding for Protein Sequence Design",
+      "score": 50.2
+    },
+    {
+      "arxiv_id": "2606.01628",
+      "title": "Demystifying Multimodal Biomolecular Co-design With Intrinsic Geodesic Coupling",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2605.31498",
+      "title": "Scalable Inference-Time Annealing with Surrogate Likelihood Estimators",
+      "score": 47.4
+    },
+    {
+      "arxiv_id": "2606.01833",
+      "title": "Learning Implicit Bias in Generative Spaces for Accelerating Protein Dynamics Emulation",
+      "score": 42.7
+    }
+  ]
+}
