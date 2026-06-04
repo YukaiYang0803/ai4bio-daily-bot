@@ -1,34 +1,29 @@
 {
   "status": "ok",
-  "fetched": 759,
-  "prefiltered": 45,
-  "judged": 45,
-  "selected": 5,
+  "fetched": 1299,
+  "prefiltered": 77,
+  "judged": 71,
+  "selected": 4,
   "papers": [
     {
-      "arxiv_id": "2606.03057",
-      "title": "Rethinking Molecular Text Representations for LLMs: An Empirical Study",
-      "score": 58.5
+      "arxiv_id": "2606.04552",
+      "title": "LDARNet: DNA Adaptive Representation Network with Learnable Tokenization for Genomic Modeling",
+      "score": 59.3
     },
     {
-      "arxiv_id": "2606.03199",
-      "title": "Fast Organic Crystal Structure Prediction with Unit Cell Flow Matching",
+      "arxiv_id": "2606.04525",
+      "title": "GENEB: Why Genomic Models Are Hard to Compare",
+      "score": 59.2
+    },
+    {
+      "arxiv_id": "2606.05139",
+      "title": "BBOmix: A Tabular Benchmark for Hyperparameter Optimization of Unsupervised Biological Representation Learning",
       "score": 52.0
     },
     {
-      "arxiv_id": "2606.03906",
-      "title": "scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation",
-      "score": 51.5
-    },
-    {
-      "arxiv_id": "2509.22468",
-      "title": "Learning the Neighborhood: Contrast-Free Multimodal Self-Supervised Molecular Graph Pretraining",
-      "score": 50.3
-    },
-    {
-      "arxiv_id": "2606.04154",
-      "title": "EpiFormer: Learning Antigen-Antibody Interactions for Epitope Prediction via Geometric Deep Learning",
-      "score": 50.0
+      "arxiv_id": "2605.08767",
+      "title": "From Holo Pockets to Electron Density: GPT-style Drug Design with Density",
+      "score": 46.8
     }
   ]
 }
