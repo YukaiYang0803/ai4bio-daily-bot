@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 1271,
+  "prefiltered": 91,
+  "judged": 87,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2506.11152",
+      "title": "HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data",
+      "score": 62.3
+    },
+    {
+      "arxiv_id": "2606.05474",
+      "title": "AlloGen: Conformation-Selective Binder Generation with Differential State Scoring",
+      "score": 52.5
+    },
+    {
+      "arxiv_id": "2606.06303",
+      "title": "Plug-and-Play Guidance for Discrete Diffusion Models via Gradient-Informed Logit Correction",
+      "score": 40.4
+    }
+  ]
+}
