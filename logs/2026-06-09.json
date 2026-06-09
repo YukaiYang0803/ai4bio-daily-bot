@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 836,
+  "prefiltered": 59,
+  "judged": 58,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2606.08802",
+      "title": "Active Flow Expansion for Out-of-Distribution Discovery: from Theory to Molecules",
+      "score": 56.0
+    },
+    {
+      "arxiv_id": "2606.09605",
+      "title": "Next-Token Prediction Learns Generalisable Representations of Sleep Physiology",
+      "score": 55.5
+    },
+    {
+      "arxiv_id": "2604.07848",
+      "title": "Information-Theoretic Requirements for Gradient-Based Task Affinity Estimation in Multi-Task Learning",
+      "score": 53.7
+    },
+    {
+      "arxiv_id": "2603.12666",
+      "title": "RetroReasoner: A Reasoning LLM for Strategic Retrosynthesis Prediction",
+      "score": 50.2
+    },
+    {
+      "arxiv_id": "2606.08825",
+      "title": "When Three-Dimensional Conformer Ensembles Improve Molecular Property Prediction Beyond Two-Dimensional Fingerprints: A Systematic Study",
+      "score": 50.0
+    }
+  ]
+}
