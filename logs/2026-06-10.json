@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1144,
+  "prefiltered": 80,
+  "judged": 77,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.04287",
+      "title": "Entropy, Disagreement, and the Limits of Foundation Models in Genomics",
+      "score": 58.0
+    },
+    {
+      "arxiv_id": "2606.10080",
+      "title": "VFUSE: Virulent Feature Understanding with Sparse autoEncoders",
+      "score": 50.8
+    },
+    {
+      "arxiv_id": "2602.04119",
+      "title": "Synthesizable Molecular Generation via Soft-constrained GFlowNets with Rich Chemical Priors",
+      "score": 48.7
+    },
+    {
+      "arxiv_id": "2604.26498",
+      "title": "Do Larger Models Really Win in Drug Discovery? A Benchmark Assessment of Model Scaling in AI-Driven Molecular Property and Activity Prediction",
+      "score": 48.4
+    },
+    {
+      "arxiv_id": "2509.01916",
+      "title": "Causal Representation Learning from Network Data",
+      "score": 48.3
+    }
+  ]
+}
