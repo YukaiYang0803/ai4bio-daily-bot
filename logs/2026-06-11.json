@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 465,
+  "prefiltered": 31,
+  "judged": 31,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2606.12209",
+      "title": "Interpretable enzyme function prediction via sparse autoencoder features of ESMC across the microbial protein universe",
+      "score": 54.8
+    },
+    {
+      "arxiv_id": "2606.12362",
+      "title": "Latent World Recovery for Multimodal Learning with Missing Modalities",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2606.12219",
+      "title": "m6A-FORM: A Foundation Model for Decoding N6-methyladenosine Biology",
+      "score": 50.2
+    }
+  ]
+}
