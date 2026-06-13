@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1070,
+  "prefiltered": 77,
+  "judged": 72,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2601.09693",
+      "title": "Contrastive Geometric Learning Unlocks Unified Structure- and Ligand-Based Drug Design",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2606.12838",
+      "title": "OCOO-T : A Simple and Scalable Virtual Cell Model for Transcriptional Perturbation Response Prediction",
+      "score": 47.2
+    },
+    {
+      "arxiv_id": "2606.12639",
+      "title": "The Metric Picks the Winner: Evaluation Choice Flips Model Rankings for Drug-Response Prediction in Unseen Chemistry",
+      "score": 46.9
+    },
+    {
+      "arxiv_id": "2606.12916",
+      "title": "MDForge: Agentic Molecular Dynamics Pipeline Design under Sparse Simulator Feedback",
+      "score": 44.4
+    },
+    {
+      "arxiv_id": "2606.12772",
+      "title": "EasyNano: rapid epitope-targeted nanobody CDR design via differentiable distogram optimization with ESMFold2",
+      "score": 42.7
+    }
+  ]
+}
