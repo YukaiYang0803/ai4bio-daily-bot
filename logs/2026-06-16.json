@@ -1,4 +1,34 @@
 {
-  "status": "no_candidates",
-  "fetched": 0
+  "status": "ok",
+  "fetched": 799,
+  "prefiltered": 49,
+  "judged": 49,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2606.16517",
+      "title": "How Post-Training Shapes Biological Reasoning Models",
+      "score": 56.4
+    },
+    {
+      "arxiv_id": "2606.06834",
+      "title": "The Dark Regulome: Disentangling Predictability from Regulation in Genomic Foundation Models",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2606.16905",
+      "title": "Speaking the Language of Science: Toward a General-Purpose Generative Foundation Model for the Natural Sciences",
+      "score": 52.1
+    },
+    {
+      "arxiv_id": "2605.10157",
+      "title": "MolSight: Molecular Property Prediction with Images",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2511.09465",
+      "title": "Branching Flows: Discrete, Continuous, and Manifold Flow Matching with Splits and Deletions",
+      "score": 52.0
+    }
+  ]
 }
