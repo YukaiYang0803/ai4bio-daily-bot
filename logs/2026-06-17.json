@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1089,
+  "prefiltered": 63,
+  "judged": 61,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2507.04704",
+      "title": "SPATIA: Multimodal Generation and Prediction of Spatial Cell Phenotypes",
+      "score": 63.5
+    },
+    {
+      "arxiv_id": "2604.25371",
+      "title": "PhyloSDF: Phylogenetically-Conditioned Neural Generation of 3D Skull Morphology via Residual Flow Matching",
+      "score": 52.3
+    },
+    {
+      "arxiv_id": "2606.16540",
+      "title": "MultiMolecule: a modular ecosystem for biomolecular sequence-model workflows",
+      "score": 50.2
+    },
+    {
+      "arxiv_id": "2602.04901",
+      "title": "Beyond Independent Genes: Learning Module-Inductive Representations for Single-Cell Gene Perturbation Prediction",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2505.17786",
+      "title": "Supervised Graph Contrastive Learning for Gene Regulatory Networks",
+      "score": 49.8
+    }
+  ]
+}
