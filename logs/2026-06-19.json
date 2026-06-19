@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 453,
+  "prefiltered": 30,
+  "judged": 30,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2603.27465",
+      "title": "Poisoning the Genome: Targeted Backdoor Attacks on DNA Foundation Models",
+      "score": 56.7
+    },
+    {
+      "arxiv_id": "2606.18961",
+      "title": "Be Your Own Teacher: Steering Protein Language Models via Unsupervised Reward Optimization",
+      "score": 52.7
+    },
+    {
+      "arxiv_id": "2606.18703",
+      "title": "Contextualizing Biological Language Models across Modalities via Logit-Space Contrastive Alignment",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2606.19496",
+      "title": "Calibrating Generative Models to Feature Distributions with MMD Finetuning",
+      "score": 49.2
+    }
+  ]
+}
