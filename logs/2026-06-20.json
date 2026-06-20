@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 435,
+  "prefiltered": 23,
+  "judged": 23,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2602.07628",
+      "title": "SleepMaMi: A Universal Sleep Foundation Model for Integrating Macro- and Micro-structures",
+      "score": 53.5
+    }
+  ]
+}
