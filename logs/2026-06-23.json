@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 703,
+  "prefiltered": 39,
+  "judged": 39,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2606.22307",
+      "title": "Enhancing Protein Representation Learning via Manifold Restore Mixing",
+      "score": 48.8
+    },
+    {
+      "arxiv_id": "2606.23443",
+      "title": "What Does a Chemical Language Model Know About Molecules?",
+      "score": 46.3
+    }
+  ]
+}
