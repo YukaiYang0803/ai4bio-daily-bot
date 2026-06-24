@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 967,
+  "prefiltered": 61,
+  "judged": 59,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2606.23964",
+      "title": "3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2606.23830",
+      "title": "Deciphering Fingerprints of 3D Molecular Surfaces for Accurate Epitope Prediction",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2606.23856",
+      "title": "Sesame: Structure-Aware Molecular Generation via Spatial Density-Map Conditioning",
+      "score": 49.8
+    }
+  ]
+}
