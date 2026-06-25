@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 905,
+  "prefiltered": 61,
+  "judged": 59,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2606.25865",
+      "title": "Molexar: A Unified Multimodal Molecular Foundation Model for Drug Design",
+      "score": 51.7
+    },
+    {
+      "arxiv_id": "2602.06020",
+      "title": "Two Stages of Folding: Convergent Mechanisms in AI Protein Folding Trunks",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2602.22822",
+      "title": "FlexMS: A Unified Public Benchmark for Molecule Tandem Mass Spectrum Prediction",
+      "score": 50.2
+    }
+  ]
+}
