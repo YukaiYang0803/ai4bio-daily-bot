@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 860,
+  "prefiltered": 51,
+  "judged": 47,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2606.26563",
+      "title": "scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology",
+      "score": 45.7
+    },
+    {
+      "arxiv_id": "2603.14717",
+      "title": "Training-Free Generation of Protein Sequences from Small Family Alignments via Stochastic Attention",
+      "score": 45.2
+    }
+  ]
+}
