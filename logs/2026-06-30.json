@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 763,
+  "prefiltered": 49,
+  "judged": 49,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2606.29949",
+      "title": "Data-Efficient Multimodal Alignment for Histopathology-based Molecular Prediction",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2606.30140",
+      "title": "DNA Language Models: An Assessment of Pre-Training for Fine-Tuning Tasks",
+      "score": 49.7
+    },
+    {
+      "arxiv_id": "2606.29161",
+      "title": "GLACIER: Rethinking Mass Spectrum Prediction as an Object Detection Problem",
+      "score": 49.7
+    },
+    {
+      "arxiv_id": "2606.30170",
+      "title": "Beyond Drug Discovery: The Nanotechnology Molecular Optimization (NMO) Benchmark",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2606.29584",
+      "title": "Geometric Algebra Meets Cartesian Tensors: Higher-Order Equivariance for Interatomic Potentials",
+      "score": 47.3
+    }
+  ]
+}
