@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1019,
+  "prefiltered": 72,
+  "judged": 68,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2606.31394",
+      "title": "Resolving superposition in AI for interpretability and cross-modal alignment in patient-neuronal images",
+      "score": 52.3
+    },
+    {
+      "arxiv_id": "2606.30695",
+      "title": "Modeling Cell-Cycle-Aware Single-Cell Drug Perturbation Responses",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2606.31332",
+      "title": "CryoACE: An Atom-centric Framework for Accurate and Automated Model Building in Cryo-EM",
+      "score": 51.0
+    },
+    {
+      "arxiv_id": "2606.30778",
+      "title": "ReactionAtlas: Ab origine exploration of chemical reaction networks with machine learning",
+      "score": 48.7
+    },
+    {
+      "arxiv_id": "2602.24007",
+      "title": "Inference-time optimization for experiment-grounded protein ensemble generation",
+      "score": 47.2
+    }
+  ]
+}
