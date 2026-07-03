@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 969,
+  "prefiltered": 73,
+  "judged": 67,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2607.01627",
+      "title": "MKGR: Multimodal Knowledge-Graph Representation Learning for Cold-Start Protein-Protein Interaction Prediction",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2607.01982",
+      "title": "MolSight: A Graph-Aware Vision-Language Model for Unified Chemical Image Understanding",
+      "score": 45.6
+    }
+  ]
+}
