@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 668,
+  "prefiltered": 49,
+  "judged": 49,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2603.00190",
+      "title": "OSF: On Pre-training and Scaling of Sleep Foundation Models",
+      "score": 60.2
+    },
+    {
+      "arxiv_id": "2607.04134",
+      "title": "Spectral Diffusion for Protein Dynamics",
+      "score": 53.8
+    },
+    {
+      "arxiv_id": "2607.04353",
+      "title": "HASSL: Hierarchy-Aware Self-Supervised Learning Framework for Single Cell Microscopy",
+      "score": 51.8
+    },
+    {
+      "arxiv_id": "2607.05084",
+      "title": "Rethinking Benchmarks and Models for Enzyme Specificity Prediction",
+      "score": 49.7
+    },
+    {
+      "arxiv_id": "2510.24380",
+      "title": "APEX: Approximate-but-exhaustive search for ultra-large combinatorial synthesis libraries",
+      "score": 48.7
+    }
+  ]
+}
