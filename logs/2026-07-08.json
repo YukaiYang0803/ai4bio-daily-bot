@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 872,
+  "prefiltered": 53,
+  "judged": 51,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2607.06224",
+      "title": "Canopy: A Heterograph Foundation Model for Metabolic Engineering",
+      "score": 62.3
+    },
+    {
+      "arxiv_id": "2607.05559",
+      "title": "EquiFiLM: Charge-Conditioned Equivariant Force Fields via Feature-wise Linear Modulation",
+      "score": 49.5
+    },
+    {
+      "arxiv_id": "2512.18454",
+      "title": "Out-of-Distribution Detection in Molecular Complexes via Diffusion Models for Irregular Graphs",
+      "score": 48.5
+    },
+    {
+      "arxiv_id": "2607.04774",
+      "title": "MARLIN: De Novo Molecular Structure Elucidation from Tandem Mass Spectra without a Ground-Truth Formula",
+      "score": 48.5
+    },
+    {
+      "arxiv_id": "2607.05153",
+      "title": "Geometric Causal Models",
+      "score": 45.1
+    }
+  ]
+}
