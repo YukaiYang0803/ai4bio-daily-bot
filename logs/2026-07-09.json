@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 802,
+  "prefiltered": 47,
+  "judged": 46,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2607.07708",
+      "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
+      "score": 62.0
+    },
+    {
+      "arxiv_id": "2606.31126",
+      "title": "Can Tabular In-Context Learners Generalize to Biomolecular Property Prediction?",
+      "score": 45.5
+    }
+  ]
+}
