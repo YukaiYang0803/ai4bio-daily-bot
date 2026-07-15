@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 778,
+  "prefiltered": 50,
+  "judged": 50,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2607.12380",
+      "title": "SinAE: A Single-Architecture Flow-Matching Autoencoder for Cross-Domain Atomic Systems",
+      "score": 59.3
+    },
+    {
+      "arxiv_id": "2607.12349",
+      "title": "Generating Developable 3D Molecules via Pocket-Conditioned Diffusion and Property-Aware Optimization",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2607.11978",
+      "title": "Gene Expression-Informed Jointly Controlled Generative Modeling for Precision Molecular Design",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2605.01625",
+      "title": "PRIME: Protein Representation via Physics-Informed Multiscale Equivariant Hierarchies",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2411.06608",
+      "title": "MolMiner: Toward Controllable, 3D-Aware, Fragment-Based Molecular Design",
+      "score": 47.5
+    }
+  ]
+}
