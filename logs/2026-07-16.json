@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 690,
+  "prefiltered": 46,
+  "judged": 43,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2607.08803",
+      "title": "TheBioCollection: Unified Pre-Training Scale LLM Corpus for Biology",
+      "score": 57.0
+    },
+    {
+      "arxiv_id": "2607.12488",
+      "title": "Sample Efficient Generative Optimization for Molecular Design",
+      "score": 44.4
+    }
+  ]
+}
