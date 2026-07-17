@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 768,
+  "prefiltered": 51,
+  "judged": 50,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2607.14163",
+      "title": "A vision foundation model for single-cell biology via spatial gene cartography",
+      "score": 59.3
+    },
+    {
+      "arxiv_id": "2603.16770",
+      "title": "Training a force field for proteins and small molecules from scratch",
+      "score": 51.5
+    }
+  ]
+}
