@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 563,
+  "prefiltered": 41,
+  "judged": 41,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2607.17227",
+      "title": "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation",
+      "score": 56.7
+    },
+    {
+      "arxiv_id": "2607.17412",
+      "title": "CORAL: Learning Amyloid Fibril Ligand Docking with Cooperative Binding Rewards",
+      "score": 50.2
+    },
+    {
+      "arxiv_id": "2602.23179",
+      "title": "Induction Meets Biology: Mechanisms of Repeat Detection in Protein Language Models",
+      "score": 45.8
+    }
+  ]
+}
