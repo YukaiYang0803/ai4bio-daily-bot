@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 837,
+  "prefiltered": 52,
+  "judged": 52,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2607.18835",
+      "title": "ABOPD: Antibody CDR Design via On-Policy Distillation",
+      "score": 48.7
+    },
+    {
+      "arxiv_id": "2607.19198",
+      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials",
+      "score": 48.0
+    },
+    {
+      "arxiv_id": "2607.19083",
+      "title": "GEqTrain: A Configuration-Driven Framework for Retargeting Equivariant Graph Neural Networks Across 3D Scientific Tasks",
+      "score": 47.8
+    },
+    {
+      "arxiv_id": "2607.19237",
+      "title": "DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models",
+      "score": 44.2
+    },
+    {
+      "arxiv_id": "2607.19044",
+      "title": "Adopting Reinforcement Learning with Verifiable Rewards for Molecular Generation",
+      "score": 39.7
+    }
+  ]
+}
