@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 777,
+  "prefiltered": 53,
+  "judged": 48,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2607.20057",
+      "title": "Antigen-specific Antibody Multi-modal Foundation Model for Functional Antibody Design",
+      "score": 61.3
+    },
+    {
+      "arxiv_id": "2607.19618",
+      "title": "Causal dictionary learning reveals and validates transcription-factor binding features in genomic language models",
+      "score": 54.0
+    },
+    {
+      "arxiv_id": "2507.03853",
+      "title": "OrbitAll: A Unified Quantum Mechanical Representation Deep Learning Framework for All Molecular Systems",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2607.19519",
+      "title": "Boltzmann-Expected Molecular Design with Decoupled Annealing Flows",
+      "score": 48.5
+    }
+  ]
+}
