@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 588,
+  "prefiltered": 35,
+  "judged": 35,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2607.23518",
+      "title": "Chamaileon: Cross-Context Binder Design with Contextualized Modeling and Mixed Sampling",
+      "score": 53.0
+    },
+    {
+      "arxiv_id": "2604.16648",
+      "title": "FRIGID: Scaling Diffusion-Based Molecular Generation from Mass Spectra at Training and Inference Time",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2607.23447",
+      "title": "PerturbPFN: Probing the Limits of Synthetic Priors in Drug Perturbation Modelling",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2607.24314",
+      "title": "MEGA-CL: A Molecular Foundation Model for Generalizable ADMET Prediction through Graph External Attention and Contrastive Learning",
+      "score": 48.7
+    },
+    {
+      "arxiv_id": "2607.23607",
+      "title": "MS-GPT: Rethinking MS/MS De Novo Structure Elucidation as Spectrum-Induced Posterior Querying of a Molecule-Language Model",
+      "score": 48.5
+    }
+  ]
+}
