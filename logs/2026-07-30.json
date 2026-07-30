@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 852,
+  "prefiltered": 52,
+  "judged": 46,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2607.22777",
+      "title": "LC-SEPLM: long-range contact-supervised adaptation for sequence-only protein representation learning",
+      "score": 51.3
+    }
+  ]
+}
