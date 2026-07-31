@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 980,
+  "prefiltered": 68,
+  "judged": 66,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2607.27258",
+      "title": "PlantBGC: Transformer for Plant BGC Discovery via Label-Free Domain Adaptation and Weak Supervision",
+      "score": 51.0
+    },
+    {
+      "arxiv_id": "2607.27404",
+      "title": "ECG-InterpBench: Benchmarking the Interpretability of ECG Foundation Models with Matched-Scale Sparse Autoencoders",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2607.28553",
+      "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
+      "score": 47.2
+    },
+    {
+      "arxiv_id": "2607.27431",
+      "title": "SE(3)-MeanFlow: Few-Step Protein Backbone Generation on Lie Groups",
+      "score": 46.8
+    }
+  ]
+}
