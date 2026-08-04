@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 827,
+  "prefiltered": 46,
+  "judged": 45,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2509.26405",
+      "title": "Refine Drugs, Don't Complete Them: Uniform-Source Discrete Flows for Fragment-Based Drug Discovery",
+      "score": 48.7
+    },
+    {
+      "arxiv_id": "2608.00985",
+      "title": "Beyond Gene Reconstruction: Learning Cell Representations through Complementary Transcriptomic Views",
+      "score": 48.1
+    },
+    {
+      "arxiv_id": "2608.01092",
+      "title": "Inter-Residue Geometry Attention for Antibody-Specific Epitope Prediction",
+      "score": 47.0
+    },
+    {
+      "arxiv_id": "2608.01007",
+      "title": "Fused Bayesian Flow Networks for Dual-Target Molecular Design",
+      "score": 46.8
+    },
+    {
+      "arxiv_id": "2608.01734",
+      "title": "LLM-Guided Retrieval for Prediction of Molecular Perturbation Responses",
+      "score": 45.7
+    }
+  ]
+}
