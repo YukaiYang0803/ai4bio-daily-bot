@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1160,
+  "prefiltered": 70,
+  "judged": 67,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2608.02961",
+      "title": "Scaling an Autoregressive Transformer for Single-Cell Generation",
+      "score": 59.5
+    },
+    {
+      "arxiv_id": "2607.23258",
+      "title": "CAPT: A Multi-task Continuous Autoregressive Transformer enabling Cross-dataset and Cross-species Transfer for Calcium Population Dynamics",
+      "score": 56.5
+    },
+    {
+      "arxiv_id": "2608.03690",
+      "title": "LAEF: A Lead-Agnostic ECG Foundation Model Towards Point-of-Care Diagnostics",
+      "score": 53.3
+    },
+    {
+      "arxiv_id": "2608.03597",
+      "title": "FOUND-AF: Benchmarking ECG Foundation Models for Atrial Fibrillation Detection",
+      "score": 51.7
+    },
+    {
+      "arxiv_id": "2608.02688",
+      "title": "Learning Molecular Representations from Cellular Phenotypes with Structure Preservation",
+      "score": 51.3
+    }
+  ]
+}
