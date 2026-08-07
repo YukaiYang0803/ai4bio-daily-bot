@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 918,
+  "prefiltered": 61,
+  "judged": 60,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2608.05928",
+      "title": "BioM-JEPA: joint-embedding prediction of graph-connected gene blocks in single cells",
+      "score": 53.8
+    },
+    {
+      "arxiv_id": "2608.06022",
+      "title": "EpiBench: Can LLMs Understand Epitopes for Antibody Drug Discovery?",
+      "score": 53.5
+    },
+    {
+      "arxiv_id": "2608.06259",
+      "title": "RxnCLF: Contrastive Transformation-Aware Reaction Foundation Model for Improved Reactivity Prediction",
+      "score": 48.3
+    },
+    {
+      "arxiv_id": "2608.03855",
+      "title": "Bi-semantic Chemical Embedder for Joint Representation Learning of SMILES and Natural Language",
+      "score": 47.8
+    },
+    {
+      "arxiv_id": "2608.05329",
+      "title": "Frozen but Not Always Accessible: A Representation Analysis of Genomic Language Models",
+      "score": 45.8
+    }
+  ]
+}
