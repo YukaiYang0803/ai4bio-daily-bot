@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 797,
+  "prefiltered": 50,
+  "judged": 50,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2608.06727",
+      "title": "bioMoR: Biology-Guided Mixture-of-Recursions for Effective Genomic Learning",
+      "score": 49.5
+    },
+    {
+      "arxiv_id": "2608.00697",
+      "title": "Evolutionary Curriculum Learning Improves Biological Sequence Modeling",
+      "score": 48.7
+    }
+  ]
+}
