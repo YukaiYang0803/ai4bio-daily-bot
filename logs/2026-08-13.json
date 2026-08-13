@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 943,
+  "prefiltered": 71,
+  "judged": 64,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2608.12219",
+      "title": "ScreenShot: A Foundation Model for Few-Shot Combination Drug Screening",
+      "score": 59.5
+    },
+    {
+      "arxiv_id": "2608.11475",
+      "title": "Probing and steering biology across Boltz-1s trunk-diffusion boundary",
+      "score": 53.8
+    },
+    {
+      "arxiv_id": "2607.19378",
+      "title": "Native Multi-Dimensional Subquadratic Operators via Input Dependent Long Convolutions",
+      "score": 48.0
+    },
+    {
+      "arxiv_id": "2608.12090",
+      "title": "Task- and dataset-specific information in protein language models",
+      "score": 45.8
+    },
+    {
+      "arxiv_id": "2608.11444",
+      "title": "Large-scale AI-Ready Data for Anti-Cancer Drug Response Modeling",
+      "score": 42.1
+    }
+  ]
+}
