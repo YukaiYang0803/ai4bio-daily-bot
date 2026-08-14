@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 875,
+  "prefiltered": 62,
+  "judged": 58,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2608.13505",
+      "title": "Intern-S2-Preview: Scientific Agentic Foundation Model",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2608.12944",
+      "title": "CardioState-JEPA: Delay-Aware Cross-Modal Learning of a Shared Cardiac Representation",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2608.12695",
+      "title": "The Impact of Temporal Context Length and Encoding Strategies on Self-Supervised ECG Representation Learning",
+      "score": 50.3
+    }
+  ]
+}
