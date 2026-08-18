@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 650,
+  "prefiltered": 47,
+  "judged": 47,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2603.13377",
+      "title": "Deep Learning for BioImaging: What Are We Really Learning?",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2608.15669",
+      "title": "Large Discovery Models: Empirically-grounded Model-Based Open-Ended Search",
+      "score": 47.2
+    }
+  ]
+}
