@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 876,
+  "prefiltered": 55,
+  "judged": 52,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2608.17567",
+      "title": "Domain-Adapted Molecular Language Models for Efficient Search of Make-on-Demand Libraries",
+      "score": 48.3
+    },
+    {
+      "arxiv_id": "2603.10302",
+      "title": "How to make the most of your masked language model for protein engineering",
+      "score": 46.9
+    },
+    {
+      "arxiv_id": "2608.17381",
+      "title": "Leveraging generative hallucination and biophysics-informed modeling for unified biomolecular sequence-structure co-design",
+      "score": 43.7
+    }
+  ]
+}
