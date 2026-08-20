@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 775,
+  "prefiltered": 51,
+  "judged": 48,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2608.18982",
+      "title": "Monroe: A Molecular Foundation Model for In-Context Probabilistic Inference",
+      "score": 58.5
+    },
+    {
+      "arxiv_id": "2608.18346",
+      "title": "Coupled-cluster molecular properties across the main group that extrapolate beyond training size",
+      "score": 54.2
+    },
+    {
+      "arxiv_id": "2608.18597",
+      "title": "Off-Manifold Collapse in Guided Protein Language Models",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2608.18604",
+      "title": "Multitask Bayesian Neural Networks for Multiparameter Protein Engineering",
+      "score": 49.0
+    }
+  ]
+}
