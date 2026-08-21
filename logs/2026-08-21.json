@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 732,
+  "prefiltered": 58,
+  "judged": 55,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2506.07459",
+      "title": "ProteinZero: Self-Improving Protein Generation via Online Reinforcement Learning",
+      "score": 55.7
+    },
+    {
+      "arxiv_id": "2608.08319",
+      "title": "A continually expandable foundation model for brain MRI",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2608.19906",
+      "title": "PETA:Parameter-Efficient Test-Time Adaptation for Virtual Screening",
+      "score": 48.2
+    },
+    {
+      "arxiv_id": "2608.19808",
+      "title": "FAR-DPO: Feasibility-Aware and Robust Direct Preference Optimization for Cyclic Peptide Design",
+      "score": 46.9
+    }
+  ]
+}
