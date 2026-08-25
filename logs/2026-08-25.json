@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 681,
+  "prefiltered": 38,
+  "judged": 38,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2608.22849",
+      "title": "RIBOSPAN: A Long-Context RNA Foundation Model for Versatile RNA Modeling",
+      "score": 59.0
+    },
+    {
+      "arxiv_id": "2608.22642",
+      "title": "Mol-JEPA: A multimodal Joint Embedding Predictive Architecture for Molecules",
+      "score": 54.6
+    },
+    {
+      "arxiv_id": "2506.00209",
+      "title": "Scaling Electronic Health Record Foundation Models for Population Health Management",
+      "score": 50.7
+    },
+    {
+      "arxiv_id": "2507.17448",
+      "title": "RetroDFM-R: Reasoning-Driven Retrosynthesis Prediction with Large Language Models via Reinforcement Learning",
+      "score": 43.9
+    }
+  ]
+}
