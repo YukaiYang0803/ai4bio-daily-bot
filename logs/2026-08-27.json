@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1045,
+  "prefiltered": 66,
+  "judged": 64,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2608.24597",
+      "title": "Taming foundation model with invariance-oriented pre-training for broad-spectrum EEG analysis across signal-level, brain-state, and brain-health tasks",
+      "score": 62.5
+    },
+    {
+      "arxiv_id": "2608.24688",
+      "title": "A Multimodal Foundation Model for Longitudinal Patient Representation and Scalable Insight Generation in Oncology",
+      "score": 58.5
+    },
+    {
+      "arxiv_id": "2605.30865",
+      "title": "GlucoFM: A Dual-Stream Foundation Model for Continuous Glucose Monitoring",
+      "score": 54.5
+    },
+    {
+      "arxiv_id": "2606.19377",
+      "title": "Emyx: Fast and efficient all-atom protein generation",
+      "score": 53.5
+    },
+    {
+      "arxiv_id": "2608.25148",
+      "title": "Can You Trust Frozen Hematology Foundation Models under Acquisition Shift?",
+      "score": 51.0
+    }
+  ]
+}
