@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 979,
+  "prefiltered": 54,
+  "judged": 51,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2608.26586",
+      "title": "RegimeFormer: A Large Protein Model of Global Perturbation Regimes",
+      "score": 58.8
+    },
+    {
+      "arxiv_id": "2608.26208",
+      "title": "Learning Interpretable Tumor Microenvironment Representations by Fitting Pan-Cancer Cell State-Niche Correlation",
+      "score": 54.3
+    },
+    {
+      "arxiv_id": "2608.26747",
+      "title": "AgentFold: Closed-Loop Agentic Search for Protein Folding Model Design",
+      "score": 50.2
+    },
+    {
+      "arxiv_id": "2608.27429",
+      "title": "Mechanistic Reaction Prediction via Discrete Flow Matching on Graph-Structured Electron Occupation",
+      "score": 49.3
+    },
+    {
+      "arxiv_id": "2608.26419",
+      "title": "Interpreting Latent Protein Language Model Features with Geometric Annotations",
+      "score": 47.3
+    }
+  ]
+}
