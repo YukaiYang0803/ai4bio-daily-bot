@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 445,
+  "prefiltered": 23,
+  "judged": 19,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2608.26585",
+      "title": "GRAS: Guided Reduced-Variance Proposals and Adaptive Selection for Training-Free Reward Alignment in Discrete Diffusion",
+      "score": 38.4
+    }
+  ]
+}
