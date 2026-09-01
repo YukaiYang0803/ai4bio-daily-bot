@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 301,
+  "prefiltered": 12,
+  "judged": 11,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2505.23862",
+      "title": "mRNA Design and Optimization with Deep Knowledge-Infused Approach",
+      "score": 48.2
+    }
+  ]
+}
