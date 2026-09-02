@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 846,
+  "prefiltered": 48,
+  "judged": 48,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2603.03517",
+      "title": "MMAI Gym for Science: Training Liquid Foundation Models for Drug Discovery",
+      "score": 58.0
+    },
+    {
+      "arxiv_id": "2506.20354",
+      "title": "A foundation model with multi-variate parallel attention to generate neuronal activity",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2608.30175",
+      "title": "Benchmarking Peptide-Protein Affinity Prediction Across Peptide and Target Shifts",
+      "score": 51.2
+    },
+    {
+      "arxiv_id": "2608.30910",
+      "title": "S3C-LLM: Skill-Code Guided Agentic Language Models for Spectrum-to-Structure Elucidation",
+      "score": 49.7
+    },
+    {
+      "arxiv_id": "2608.07632",
+      "title": "JUMP-lite: Compact, reproducible benchmarking of cell representations",
+      "score": 48.8
+    }
+  ]
+}
