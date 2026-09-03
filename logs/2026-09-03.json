@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 775,
+  "prefiltered": 46,
+  "judged": 42,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2608.29207",
+      "title": "Hyper-Fold: Exploring the Expressive Limit of Sequence-Geometry Learning for Proteins via Hypergraph Modeling",
+      "score": 54.8
+    },
+    {
+      "arxiv_id": "2609.01871",
+      "title": "Latent unified smooth Hamiltonians for excited state chemistry",
+      "score": 50.8
+    },
+    {
+      "arxiv_id": "2604.27269",
+      "title": "Unifying biomedical knowledge in a modern multimodal graph",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2609.01357",
+      "title": "PopPert: Population-level Joint-Distribution Modeling for Single-Cell Perturbation Prediction",
+      "score": 47.0
+    }
+  ]
+}
