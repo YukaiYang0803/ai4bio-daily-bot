@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 538,
+  "prefiltered": 32,
+  "judged": 32,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2609.02344",
+      "title": "Subcellularly Resolved Single-Cell Embedding Learning with Transcriptomic data, Protein Structure and Localization Information",
+      "score": 48.1
+    }
+  ]
+}
