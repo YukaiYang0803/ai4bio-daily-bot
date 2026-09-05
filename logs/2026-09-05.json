@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "fetched": 438,
+  "prefiltered": 33,
+  "judged": 33,
+  "selected": 1,
+  "papers": [
+    {
+      "arxiv_id": "2609.03377",
+      "title": "SimpleDesign: A Joint Model for Protein Sequence and Structure Codesign",
+      "score": 55.0
+    }
+  ]
+}
