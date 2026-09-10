@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 610,
+  "prefiltered": 31,
+  "judged": 31,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2602.08751",
+      "title": "Central Dogma Transformer II: An AI Microscope for Understanding Cellular Regulatory Mechanisms",
+      "score": 54.3
+    },
+    {
+      "arxiv_id": "2609.08474",
+      "title": "Predicting directional flexibility in proteins",
+      "score": 52.8
+    },
+    {
+      "arxiv_id": "2608.08148",
+      "title": "DoGMA: A Central-Dogma-Guided Foundation Model for Multi-Omics Alignment and Multi-Task Learning in Oncology",
+      "score": 51.1
+    },
+    {
+      "arxiv_id": "2609.08333",
+      "title": "Fixed-Dimensional Latent Flow for Generating Variable-Size 3D Molecules",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2606.11190",
+      "title": "When to Align, When to Predict: A Phase Diagram for Multimodal Learning",
+      "score": 46.8
+    }
+  ]
+}
