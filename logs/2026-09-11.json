@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 514,
+  "prefiltered": 27,
+  "judged": 25,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2609.10193",
+      "title": "Are You Learning Biological Signal or Shortcuts? Auditing and Mitigating Bias in Protein-Protein Interaction Datasets",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2609.10099",
+      "title": "A Systematic Evaluation of Molecule Generation Models for De Novo Drug Design: From Benchmarks to Practical Insights",
+      "score": 47.7
+    },
+    {
+      "arxiv_id": "2609.10831",
+      "title": "scDEFT: A deep learning framework for drug-effect prediction and counterfactual reasoning",
+      "score": 46.8
+    }
+  ]
+}
