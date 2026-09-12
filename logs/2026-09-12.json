@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 445,
+  "prefiltered": 24,
+  "judged": 23,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2609.11877",
+      "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
+      "score": 55.2
+    },
+    {
+      "arxiv_id": "2609.11872",
+      "title": "Evaluating Time-Series Foundation Models and Multimodal Dietary Context for CGM Forecasting",
+      "score": 49.5
+    },
+    {
+      "arxiv_id": "2512.10147",
+      "title": "When do cheap embeddings beat protein language models? A theoretically-grounded hashing sketch for biological sequence classification",
+      "score": 48.3
+    }
+  ]
+}
