@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 601,
+  "prefiltered": 40,
+  "judged": 40,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2505.01912",
+      "title": "BOOM: Benchmarking Out-Of-distribution Molecular Property Predictions of Machine Learning Models",
+      "score": 50.4
+    },
+    {
+      "arxiv_id": "2609.16468",
+      "title": "GPCR Ligand Bioactivity Prediction with Physics-Informed Dual-State Query Learning",
+      "score": 48.5
+    },
+    {
+      "arxiv_id": "2609.17831",
+      "title": "Procedural Pretraining for Molecular Property Prediction",
+      "score": 48.5
+    },
+    {
+      "arxiv_id": "2609.16925",
+      "title": "HyCoSeq: Contextual Hyperbolic Representation Learning for Genomic Sequences",
+      "score": 47.1
+    },
+    {
+      "arxiv_id": "2501.02059",
+      "title": "Active Learning Enables Generation of Molecules that Advance the Known Pareto Front",
+      "score": 46.7
+    }
+  ]
+}
