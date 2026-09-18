@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 672,
+  "prefiltered": 42,
+  "judged": 41,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2609.18745",
+      "title": "When Edit Flows are Edit Jumps: replicating Edit Flows and EvoFlows",
+      "score": 51.7
+    },
+    {
+      "arxiv_id": "2605.10840",
+      "title": "Clin-JEPA: A Multi-Phase Co-Training Framework for Joint-Embedding Predictive Pretraining on EHR Patient Trajectories",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2609.18104",
+      "title": "iMINDBench: iEEG Multi-Institution Neural Decoding Benchmark",
+      "score": 49.2
+    },
+    {
+      "arxiv_id": "2609.19770",
+      "title": "TorchCraft: Unified binder design by inverting an all-atom structure predictor",
+      "score": 48.5
+    },
+    {
+      "arxiv_id": "2604.05478",
+      "title": "Transcriptomic Models for Immunotherapy Response Prediction Show Limited Cross-cohort Generalisability",
+      "score": 47.5
+    }
+  ]
+}
