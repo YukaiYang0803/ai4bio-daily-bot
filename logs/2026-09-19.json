@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 447,
+  "prefiltered": 22,
+  "judged": 18,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2609.19865",
+      "title": "Pretrained Medical Representations for the Practical Screening of Drug Repositioning Candidates",
+      "score": 47.8
+    },
+    {
+      "arxiv_id": "2609.20800",
+      "title": "JEPA-Anything: Learning Predictive Models across Different Worlds",
+      "score": 47.0
+    },
+    {
+      "arxiv_id": "2608.14227",
+      "title": "Attributing Preprocessing Invariance in Spectral Foundation Models",
+      "score": 46.2
+    }
+  ]
+}
