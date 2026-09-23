@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 782,
+  "prefiltered": 44,
+  "judged": 43,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2608.03079",
+      "title": "CorePath: A Breast-Specialized Pathology Foundation Model for Core Needle Biopsy Diagnosis and Risk-Controlled Report Generation",
+      "score": 49.2
+    },
+    {
+      "arxiv_id": "2609.14360",
+      "title": "Robust small-molecule identification from incomplete, degraded, and inconsistent spectra using multimodal mixed-condition training",
+      "score": 48.2
+    },
+    {
+      "arxiv_id": "2609.04461",
+      "title": "A Roadmap for MEG Foundation Models",
+      "score": 47.8
+    },
+    {
+      "arxiv_id": "2603.29529",
+      "title": "Sampling at intermediate temperatures is optimal for training large language models in protein structure prediction",
+      "score": 47.3
+    },
+    {
+      "arxiv_id": "2609.25334",
+      "title": "MT-ProtBERT: Multi-task Learning ProtBERT for Intrinsically Disordered Proteins Classification with Scarce Data",
+      "score": 47.3
+    }
+  ]
+}
