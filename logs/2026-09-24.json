@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 735,
+  "prefiltered": 44,
+  "judged": 40,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2510.16656",
+      "title": "Simulation-free Structure Learning for Stochastic Population Dynamics",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2609.27232",
+      "title": "A Scaling Study for fMRI Foundation Models",
+      "score": 49.2
+    },
+    {
+      "arxiv_id": "2609.25659",
+      "title": "When Riemann flows with Wasserstein: Generative Modeling of Probability Distributions on Manifolds",
+      "score": 47.1
+    },
+    {
+      "arxiv_id": "2511.02769",
+      "title": "STAR-VAE: A Scalable Latent-Variable Transformer for Controllable Molecular Generation",
+      "score": 46.7
+    }
+  ]
+}
