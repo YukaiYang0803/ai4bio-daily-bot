@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 580,
+  "prefiltered": 28,
+  "judged": 27,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2605.07554",
+      "title": "ProteinJEPA: Latent prediction improves protein language model pretraining",
+      "score": 53.5
+    },
+    {
+      "arxiv_id": "2609.27710",
+      "title": "FFM-CP: Cross-Backbone Fusion of Vision-Language Foundation Models for Few-Shot Computational Pathology",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2609.28935",
+      "title": "Response-state Learning for Transferable Vibrational Spectroscopic Characterization with Electron Prior",
+      "score": 47.3
+    },
+    {
+      "arxiv_id": "2609.28231",
+      "title": "Do Center Biases Propagate? Robustness of Pathology Foundation Models in Whole-Slide Image Classification",
+      "score": 46.5
+    },
+    {
+      "arxiv_id": "2609.28921",
+      "title": "PFArena: Benchmarking Language Models for Protein Modification",
+      "score": 44.7
+    }
+  ]
+}
