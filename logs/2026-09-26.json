@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 472,
+  "prefiltered": 29,
+  "judged": 27,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2605.26026",
+      "title": "A Multimodal 3D Foundation Model for Light Sheet Fluorescence Microscopy Enables Few-Shot Segmentation, Classification, and Deblurring",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2609.08101",
+      "title": "PocketVE: Stable and Property-Guided Structure-Based Drug Design with Variance-Exploding Diffusion",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2609.29740",
+      "title": "TopU-LBVS: A Realistic Multi Target Benchmark for Ligand Based Virtual Screening",
+      "score": 48.7
+    }
+  ]
+}
