@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 756,
+  "prefiltered": 43,
+  "judged": 42,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2609.33129",
+      "title": "Flow-Matching-Based Protein Structure Tokenizer Made Efficient and Easy",
+      "score": 56.3
+    },
+    {
+      "arxiv_id": "2609.33516",
+      "title": "PPG-LM: A Photoplethysmography-Language Model with Multi-Level Clinical Alignment",
+      "score": 53.5
+    },
+    {
+      "arxiv_id": "2609.33487",
+      "title": "What masking geometry works best for EEG foundation models?",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2609.34001",
+      "title": "Assay-Aware BindingDB: Curating Experimental Context for Binding Affinity Prediction",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2609.34079",
+      "title": "GenoMorph: Pathway-Grounded Genomic Disease Reasoning via Adaptive Latent Computation",
+      "score": 51.0
+    }
+  ]
+}
