@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1889,
+  "prefiltered": 121,
+  "judged": 119,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2605.31562",
+      "title": "Effective Biological Representation Learning by Masking Gene Expression",
+      "score": 59.8
+    },
+    {
+      "arxiv_id": "2402.10251",
+      "title": "BrainWave: A Brain Signal Foundation Model for Clinical Applications",
+      "score": 54.5
+    },
+    {
+      "arxiv_id": "2609.35296",
+      "title": "AbGaze: Attentive Geometric Representation Learning for End-to-End Antibody Design",
+      "score": 53.3
+    },
+    {
+      "arxiv_id": "2609.36277",
+      "title": "From Surfaces to Volumes: Registered Geometry for Protein Representation Learning",
+      "score": 53.3
+    },
+    {
+      "arxiv_id": "2410.14127",
+      "title": "Estimating the Causal Effects of T Cell Receptors",
+      "score": 52.3
+    }
+  ]
+}
