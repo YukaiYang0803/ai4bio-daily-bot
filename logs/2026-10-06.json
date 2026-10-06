@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 739,
+  "prefiltered": 44,
+  "judged": 44,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2610.05649",
+      "title": "Training and Scaling Compute-Optimal Physiological Waveform Foundation Models",
+      "score": 51.2
+    },
+    {
+      "arxiv_id": "2610.01663",
+      "title": "pCoMole: Pareto-Constrained Molecule Editing with Discrete Flows",
+      "score": 48.7
+    },
+    {
+      "arxiv_id": "2510.16587",
+      "title": "Multi-Marginal SchrÃ¶dinger Bridge Matching",
+      "score": 47.5
+    },
+    {
+      "arxiv_id": "2610.05353",
+      "title": "FACET: Factorized Asymmetric Conditioning for Efficient Transport in High-Fidelity Fluorescence Microscopy Synthesis",
+      "score": 47.5
+    },
+    {
+      "arxiv_id": "2610.05590",
+      "title": "ColdDDI: Evaluating Knowledge Utilization in Cold-Start Drug-Drug Interaction Prediction",
+      "score": 47.2
+    }
+  ]
+}
