@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1549,
+  "prefiltered": 95,
+  "judged": 93,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2610.11694",
+      "title": "Elucidating the Space of Enzymatic Reaction: A Unified Benchmark and Pretrained Model",
+      "score": 56.5
+    },
+    {
+      "arxiv_id": "2610.11761",
+      "title": "RAGenome: Scaling Retrieval-Based Genomic Language Models to Long Contexts",
+      "score": 55.0
+    },
+    {
+      "arxiv_id": "2610.10879",
+      "title": "MD-LLM-2: A Transferable Language Model of Molecular Dynamics with Physical Conditioning and Explicit Path Probabilities",
+      "score": 55.0
+    },
+    {
+      "arxiv_id": "2610.11454",
+      "title": "Zatom-2: Multitask Pretraining on Atomistic Data for Generative Modeling across Domains",
+      "score": 54.0
+    },
+    {
+      "arxiv_id": "2610.11222",
+      "title": "Cross-species representation learning aligns mouse and human neural dynamics and tracks clinical drug efficacy",
+      "score": 50.8
+    }
+  ]
+}
