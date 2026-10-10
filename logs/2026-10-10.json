@@ -1,0 +1,29 @@
+{
+  "status": "ok",
+  "fetched": 733,
+  "prefiltered": 43,
+  "judged": 38,
+  "selected": 4,
+  "papers": [
+    {
+      "arxiv_id": "2603.07233",
+      "title": "Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2609.37414",
+      "title": "Leveraging secondary-structure information for accurate nucleic acid structure prediction with OFoldNA",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2610.11318",
+      "title": "Finsler Flow Matching: Dynamics-Aware Geodesic Interpolation for Single-Snapshot Trajectory Inference",
+      "score": 47.3
+    },
+    {
+      "arxiv_id": "2610.12340",
+      "title": "Ambient Discrete Diffusion: Using the Wrong Data at the Right Time for Data Efficient Learning",
+      "score": 47.2
+    }
+  ]
+}
