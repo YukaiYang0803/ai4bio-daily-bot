@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1012,
+  "prefiltered": 54,
+  "judged": 54,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2610.19592",
+      "title": "InstructPro2: Natural Language and Biological Grounding Guided De Novo Protein Design",
+      "score": 56.5
+    },
+    {
+      "arxiv_id": "2610.18651",
+      "title": "Does Pretraining Teach Chemical Language Models Chemistry?",
+      "score": 54.5
+    },
+    {
+      "arxiv_id": "2610.19557",
+      "title": "TEX-MEX: Similarity-Guided Temporal Contrastive Learning for Time Series",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2511.09568",
+      "title": "VEDA: Generation of 3D Molecules via Variance-Exploding Diffusion with Annealing",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2508.02276",
+      "title": "AI Scientists for Building Virtual-Cell Models",
+      "score": 48.2
+    }
+  ]
+}
