@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 670,
+  "prefiltered": 38,
+  "judged": 36,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2610.22242",
+      "title": "SurvICL: a Foundation Model for in-context Survival Analysis",
+      "score": 51.9
+    },
+    {
+      "arxiv_id": "2610.00742",
+      "title": "StabilityArc: Decoding Protein Sequence Embeddings into Generalizable Stability Landscapes",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2610.21943",
+      "title": "Panoramic modelling of single-cell transcriptomes at scale with CellNet",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2610.21200",
+      "title": "Poisoning the corpora of protein design systems during pre-training and retrieval",
+      "score": 48.9
+    },
+    {
+      "arxiv_id": "2610.22025",
+      "title": "Not All Unlabeled Data Are Equal: Unlabeled Data Selection for Semi-Supervised QSAR Modeling with Large Chemical Repositories",
+      "score": 48.2
+    }
+  ]
+}
