@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1013,
+  "prefiltered": 70,
+  "judged": 70,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2610.26747",
+      "title": "recAMPLIFY: Large-Scale Pretraining of Recursive Protein Language Models",
+      "score": 58.5
+    },
+    {
+      "arxiv_id": "2605.06830",
+      "title": "ProtSent: Protein Sentence Transformers",
+      "score": 54.8
+    },
+    {
+      "arxiv_id": "2610.26651",
+      "title": "The Effectiveness and Durability of Pretraining Data Filtering in Protein Language Models",
+      "score": 54.2
+    },
+    {
+      "arxiv_id": "2610.27047",
+      "title": "Discrete Neural Interlingua for Ontology-Agnostic EHR Modeling",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2610.27638",
+      "title": "Ensemble-Aware Structural Encoding (EASE): Conditioning Protein Encoders on Peptide Conformational Ensembles",
+      "score": 51.3
+    }
+  ]
+}
