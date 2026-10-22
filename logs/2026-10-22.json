@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 971,
+  "prefiltered": 61,
+  "judged": 58,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2610.29320",
+      "title": "BrainCodes: A Lightweight EEG Foundation Model over Discrete Neural Codes",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2607.04987",
+      "title": "Data-Driven Soft Labeling Scales DNA Read Classification to Whole-Body Cell-Type Deconvolution",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2610.28579",
+      "title": "Spatially Informed and Direction Sensitive Representation Learning for Spatial Transcriptomics",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2610.29111",
+      "title": "SU(2)-Equivariant Spinor Message Passing for Molecular Magnetism",
+      "score": 49.3
+    },
+    {
+      "arxiv_id": "2610.28083",
+      "title": "IECG: Weakly-Supervised Interpretability-Enhancing Foundation Model for Electrocardiogram",
+      "score": 48.8
+    }
+  ]
+}
