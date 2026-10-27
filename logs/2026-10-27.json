@@ -1,0 +1,24 @@
+{
+  "status": "ok",
+  "fetched": 251,
+  "prefiltered": 15,
+  "judged": 13,
+  "selected": 3,
+  "papers": [
+    {
+      "arxiv_id": "2510.14455",
+      "title": "Coder as Editor: Code-driven Interpretable Molecular Editing",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2610.04850",
+      "title": "PIT-GCL: Protein Interaction using Topological Graph Contrastive Learning",
+      "score": 45.3
+    },
+    {
+      "arxiv_id": "2610.34173",
+      "title": "Reasoning or Just Prompting? Probing the Mechanism of Latent Chemical Reasoning",
+      "score": 43.0
+    }
+  ]
+}
