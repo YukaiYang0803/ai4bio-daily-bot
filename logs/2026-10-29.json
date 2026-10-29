@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "fetched": 600,
+  "prefiltered": 27,
+  "judged": 26,
+  "selected": 2,
+  "papers": [
+    {
+      "arxiv_id": "2610.37606",
+      "title": "A unified coarse-grained neural network potential for the dynamics of biomolecular complexes",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2610.36517",
+      "title": "PRISM: Pathology Reliability In Scarce-label Medicine. A Tile-level Benchmark of Pathology Foundation Models",
+      "score": 43.7
+    }
+  ]
+}
