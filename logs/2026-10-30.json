@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 350,
+  "prefiltered": 24,
+  "judged": 24,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.01169",
+      "title": "Bridging the Simulation-to-Experiment Gap with Generative Models using Adversarial Distribution Alignment",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2610.38445",
+      "title": "DES-JEPA: Learning a Shared Vocabulary for High-Dimensional Discrete Event Sequences",
+      "score": 47.8
+    },
+    {
+      "arxiv_id": "2610.19246",
+      "title": "Refined Topology-Pass Scheduling: Damped Trust-Region Compensation for Dynamic k-NN Graphs in SE(3)-Equivariant Structure Prediction",
+      "score": 47.7
+    },
+    {
+      "arxiv_id": "2610.38835",
+      "title": "What to randomize matters: a controlled study of volume, axis and representation in low-data molecular generation",
+      "score": 47.5
+    },
+    {
+      "arxiv_id": "2610.38517",
+      "title": "AtomSteer: Test-Time Constraint Steering for Atomistic Generative Models",
+      "score": 46.0
+    }
+  ]
+}
