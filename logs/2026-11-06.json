@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 976,
+  "prefiltered": 69,
+  "judged": 64,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2609.39048",
+      "title": "Structure-aware Reinforcement Learning for Protein Directed Evolution",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2605.16392",
+      "title": "Bridging the Modality Bottleneck in Pathology MIL through Molecularly Guided Feature Adaptation",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2509.12266",
+      "title": "Genome-Factory: A Library for Tuning, Deploying, and Interpreting Genomic Foundation Models",
+      "score": 49.3
+    },
+    {
+      "arxiv_id": "2606.11833",
+      "title": "Flow Matching with In-Context Priors for Out-of-Distribution Brain Dynamics",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2611.06356",
+      "title": "EEGDash Corpus: A Training-Ready Public Corpus for EEG Foundation Models",
+      "score": 48.2
+    }
+  ]
+}
