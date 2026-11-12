@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 530,
+  "prefiltered": 54,
+  "judged": 52,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2611.14504",
+      "title": "Emergent Biological Capabilities in a Foundation Model for Molecular Interactions",
+      "score": 60.3
+    },
+    {
+      "arxiv_id": "2611.14511",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "score": 51.5
+    },
+    {
+      "arxiv_id": "2604.22997",
+      "title": "Learning Deep Phylogeny Through Epistasis-Aware Geometry",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2611.14035",
+      "title": "ScaleBrain: A Scale-Consistent Framework for EEG Foundation Models",
+      "score": 49.5
+    },
+    {
+      "arxiv_id": "2608.02157",
+      "title": "RamanPFN: A physics-guided spectral foundation framework for in-context learning across diverse Raman applications",
+      "score": 48.0
+    }
+  ]
+}
