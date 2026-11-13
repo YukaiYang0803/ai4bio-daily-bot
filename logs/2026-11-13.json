@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 258,
+  "prefiltered": 24,
+  "judged": 24,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2603.11703",
+      "title": "EvoFlows: Evolutionary Edit-Based Flow-Matching for Protein Engineering",
+      "score": 53.5
+    },
+    {
+      "arxiv_id": "2611.15004",
+      "title": "A Cardiorespiratory Foundation Model Pretrained on Ten Physiological Signals for Perioperative and Critical Care",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2611.15329",
+      "title": "TabOmics: A Small, Open Tabular Foundation Model for Wide Omics Data",
+      "score": 50.7
+    },
+    {
+      "arxiv_id": "2410.11433",
+      "title": "Hessian-Informed Flow Matching",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2611.02275",
+      "title": "Data-Scarce, Multi-Granular, Multimodal: Benchmark Design for Biosynthetic Gene Clusters",
+      "score": 50.0
+    }
+  ]
+}
