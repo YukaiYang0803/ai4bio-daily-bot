@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 422,
+  "prefiltered": 32,
+  "judged": 32,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2609.04325",
+      "title": "The microscope is the mask: privileged views and labels from a cryo-ET forward model",
+      "score": 53.3
+    },
+    {
+      "arxiv_id": "2611.16935",
+      "title": "Universal Infectious Disease Forecasting with Mantis 2",
+      "score": 50.7
+    },
+    {
+      "arxiv_id": "2611.17031",
+      "title": "Your Vision Foundation Model Is Secretly an EEG Foundation Model",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2611.16361",
+      "title": "MutAtlas: A PDB-Wide Energy-Guided Atlas of Protein Mutation Effects",
+      "score": 49.8
+    },
+    {
+      "arxiv_id": "2611.16881",
+      "title": "Protein Language Models Fail To Capture Contact Predictions Under Invariant Relabeling",
+      "score": 46.8
+    }
+  ]
+}
