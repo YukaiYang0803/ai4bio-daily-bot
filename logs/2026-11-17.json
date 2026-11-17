@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 466,
+  "prefiltered": 36,
+  "judged": 35,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2611.19885",
+      "title": "An Exploration of Physical and Chemical Representation in Coarse-Grained, Machine-Learned Protein Models",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2610.33195",
+      "title": "Agent-guided epitope excision enables economical de novo binder design",
+      "score": 47.2
+    },
+    {
+      "arxiv_id": "2611.19812",
+      "title": "Reasoning in the loop: antibody lead optimization by probing mechanism and measurement",
+      "score": 47.2
+    },
+    {
+      "arxiv_id": "2611.19793",
+      "title": "IANN: A Unified Framework for Equivariant InterAtomic Neural Networks with User-Friendly Implementation",
+      "score": 46.5
+    },
+    {
+      "arxiv_id": "2610.16346",
+      "title": "CellChain: Benchmarking Cross-Scale Evidence Use for Perturbation Reasoning",
+      "score": 45.7
+    }
+  ]
+}
