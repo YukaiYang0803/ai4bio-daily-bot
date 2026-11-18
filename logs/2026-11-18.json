@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1209,
+  "prefiltered": 94,
+  "judged": 89,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2611.21079",
+      "title": "SemiNovo: Learning Beyond Search-Identified Spectra for De Novo Peptide Sequencing",
+      "score": 51.7
+    },
+    {
+      "arxiv_id": "2611.22098",
+      "title": "Every Measurement, Every Direction, All at Once: Multimodal Flow Matching for Molecules and Spectra",
+      "score": 51.0
+    },
+    {
+      "arxiv_id": "2611.12307",
+      "title": "PACE-ECG: Patient-Aware Contrastive ECG Pretraining; Leveraging Longitudinal Structure for Transferable Representations",
+      "score": 49.5
+    },
+    {
+      "arxiv_id": "2611.21959",
+      "title": "OCCAM: Improved Single-Cell Representation Learning and Perturbation Effect Prediction",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2611.21276",
+      "title": "Classical structural priors improve neural molecular representations in molecule language models",
+      "score": 48.8
+    }
+  ]
+}
