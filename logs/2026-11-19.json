@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1173,
+  "prefiltered": 84,
+  "judged": 80,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2611.23925",
+      "title": "Cardiac MRI-informed electrocardiography enables biologically grounded cardiomyopathy detection",
+      "score": 55.5
+    },
+    {
+      "arxiv_id": "2607.05171",
+      "title": "RABBiT: Rapidly adaptive BOLD foundation model via brain-tuning for accurate zero-shot and few-shot prediction of speech-elicited responses in the brain",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2611.08922",
+      "title": "Glyph: An Interpretability Engine for AI-Driven Scientific Discovery from Clinical Data",
+      "score": 50.3
+    },
+    {
+      "arxiv_id": "2611.23777",
+      "title": "STORM: A Lightweight Structure-Free Model for Binding Affinity Prediction",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2611.24104",
+      "title": "SCOPE: Single-Cell Omics Prediction from Histology via RNA-Protein Prior Enhancement",
+      "score": 50.0
+    }
+  ]
+}
