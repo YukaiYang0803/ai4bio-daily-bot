@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1169,
+  "prefiltered": 84,
+  "judged": 75,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2509.22050",
+      "title": "BrainPro: Process-conditioned Pretraining with Topographic Retrieval for Large EEG Models",
+      "score": 52.0
+    },
+    {
+      "arxiv_id": "2611.25396",
+      "title": "Protein Functional Semantic Alignment via Representation Rectification",
+      "score": 51.3
+    },
+    {
+      "arxiv_id": "2611.25309",
+      "title": "VoxForge: A Unified Foundation Model for Dense 3D Features Across MRI, CT and PET",
+      "score": 51.0
+    },
+    {
+      "arxiv_id": "2611.26316",
+      "title": "C-LiTE: A Lightweight Foundation Model for Cellular feature learning in Histopathology",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2609.34654",
+      "title": "A General Harness for Protein Foundation Model Fitness Prediction",
+      "score": 49.7
+    }
+  ]
+}
