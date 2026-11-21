@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 587,
+  "prefiltered": 46,
+  "judged": 39,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2611.25422",
+      "title": "From Sequence Uncertainty to Phenotype Hypotheses: Uncertainty-Conditioned Inference over Biomedical Knowledge Graphs",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2611.25629",
+      "title": "NIMIS: A Structure-Agnostic, Chemically Informed Slot-Attention Framework for Demixing 1D $^1$H-NMR Mixture Spectra",
+      "score": 50.5
+    },
+    {
+      "arxiv_id": "2611.25917",
+      "title": "LIFT: Latent Flow Matching for Probabilistic Cell Fate Dynamics with Single Cell Snapshots",
+      "score": 47.3
+    },
+    {
+      "arxiv_id": "2510.24736",
+      "title": "RNAGenScape: Property-Guided, Optimized Generation of mRNA Sequences with Manifold Langevin Dynamics",
+      "score": 46.8
+    },
+    {
+      "arxiv_id": "2610.23862",
+      "title": "Forecasting Patient Trajectories from the Electronic Health Records with Action-Conditioned World Models",
+      "score": 45.8
+    }
+  ]
+}
