@@ -1,0 +1,34 @@
+{
+  "status": "ok",
+  "fetched": 1357,
+  "prefiltered": 107,
+  "judged": 100,
+  "selected": 5,
+  "papers": [
+    {
+      "arxiv_id": "2604.15380",
+      "title": "Exascale Multi-Task Graph Foundation Models for Imbalanced, Multi-Fidelity Atomistic Data",
+      "score": 56.0
+    },
+    {
+      "arxiv_id": "2611.34106",
+      "title": "SysBio-SR: Benchmarking Symbolic Regression for Trajectory Fidelity and Mechanism Recovery in Systems Biology",
+      "score": 50.0
+    },
+    {
+      "arxiv_id": "2611.31856",
+      "title": "Start Where the Data Are: Statistical Priors for One-Step Generation on Manifolds",
+      "score": 49.0
+    },
+    {
+      "arxiv_id": "2609.06960",
+      "title": "iBrain: A Unified Foundation Model Reading the Brain from Surface to Spikes",
+      "score": 48.8
+    },
+    {
+      "arxiv_id": "2611.33985",
+      "title": "MolGPAO: Molecular Generative Pre-trained Autoregressive Octree with Speculative Decoding and Sub-Millisecond Seam Healing for 3D Molecules",
+      "score": 48.5
+    }
+  ]
+}
